@@ -1,0 +1,21 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "images",
+  "livePreview": true,
+  "strictLineBreaks": true,
+  "propertiesInDocument": "source",
+  "showLineNumber": false,
+  "vimMode": false,
+  "defaultViewMode": "source",
+  "userIgnoreFilters": [
+    "images/"
+  ]
+}

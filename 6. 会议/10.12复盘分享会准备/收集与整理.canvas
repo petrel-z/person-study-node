@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"4fede9a1a8702afa","type":"file","file":"images/Pasted image 20251002170530.png","x":1097,"y":-2100,"width":543,"height":264},
+		{"id":"f3a7331a8e94a898","type":"file","file":"images/Pasted image 20251002170612.png","x":1101,"y":-1760,"width":535,"height":208},
+		{"id":"8e16d365a9de0a60","type":"file","file":"images/Pasted image 20251002170644.png","x":1105,"y":-1500,"width":531,"height":223},
+		{"id":"d0965ed6550a36d7","type":"text","text":"演示","x":1244,"y":-2260,"width":250,"height":60},
+		{"id":"8b6781a22e36de78","type":"text","text":"# 总结和复盘的区别\n总结：对已知进行归纳整理\n复盘：对未知进行推演\n\n# 复盘思维\n1. 结构化整理碎片信息\n\n","x":-400,"y":-1640,"width":940,"height":340},
+		{"id":"6ca2d42eceaae381","type":"text","text":"# 如何目标管理\nSMART：\nS: Specific 明确的\nM: Messurable 可衡量的\nA: Attainable 可实现的\nR: Relevant 现实的\nT: Time-based 有时限的\n\neg： 目标：一个月内掌握300单词","x":-2280,"y":-1182,"width":560,"height":279},
+		{"id":"e1cb278b82e6a8bb","type":"link","url":"https://www.woshipm.com/zhichang/5457880.html","x":-1160,"y":-2680,"width":1120,"height":360},
+		{"id":"e324dad70b545166","type":"text","text":"# 参考资料","x":-1800,"y":-2350,"width":250,"height":60},
+		{"id":"6e75bcb5c5f592f3","type":"text","text":"bilibili\n# 学会这招“顶级复盘”，你的成功将事半功倍！","x":-1160,"y":-2240,"width":720,"height":180},
+		{"id":"5f830171807befe7","type":"text","text":"# 复盘的核心目的：提升能力\n**1、主题阅读能力**\n**2、逻辑思维能力**\n**​3、知识体系能力**\n**​4、演讲表达能力**\n\n# 复盘的意义\n1. 解决某些问题（更好做一件事）\n2. 保优废差\n3. 积累经验，不断成长、精进，提升能力\n4. 将做过的事情留痕，可用在工作汇报中\n5. 看清未来，纠正成长轨迹","x":-280,"y":-1065,"width":800,"height":430},
+		{"id":"f799f971a85a9155","type":"text","text":"# 复盘的误区：\n拒绝形式主义复盘\n\n将主观感受带入复盘：我总是忘记写作业，太马虎了；我之所以没考好，是因为我总是马虎\n事件和评论搞混\n\n","x":-1400,"y":-1600,"width":740,"height":220},
+		{"id":"3207546f582bd92c","type":"text","text":"# 如何有效复盘，找到真正的原因\n找到事情发展规律\n\n1. 观察\n\t1. 想清楚为什么做？\n\t2. 想要做成什么结果\n\t3. 目标是否可量化、具体\n2. 反思：水平和垂直\n\t1. 工具：mece原则、逻辑树、思维导图、鱼骨图\n\t2. 4M1E（人机物法环）：考试没考好\n\t\t1. 人员man：跟我有关系的人对我的影响（老师讲的不好）\n\t\t2. 机器machine：辅助工具（教材不够好\n\t\t3. 物料material：材料（考试难度大\n\t\t4. 方法method：学习方法、技巧 \n\t\t5. 环境environment：学习环境、生活环境\n\t3. 根据反思，大胆假设，小心求证\n3. 行动\n\t1. 5W1H\n\t\t1. what:  做什么（行动）\n\t\t2. why:  为什么做（目的）\n\t\t3. who:  跟谁做\n\t\t4. when:  什么时候做（具体时间）\n\t\t5. where:  在哪做（具体地点）\n\t\t6. how：如何做（方法、技巧）\n\n简单重复1万次，不如有效重复一次。\n进步小不可怕，比没有进度强\n将小的进步进行循环迭代\n","x":-1399,"y":-1240,"width":959,"height":860},
+		{"id":"5fc0aa86e4e67859","type":"text","text":"# 复盘方法\n\n复盘五部曲：\n1. 回顾目标：查看自己定制的目标\n2. 对比结果：将完成结果和目标进行对比，哪些完成，哪些未完成\n3. 还原过程：在完成某一个目标时，记录下来经历的过程，做了哪些动作，产生了什么结果和影响\n\t1. 利用积极影响，规避消极影响\n\t2. 事件的受益方是谁、利益受损方\n\t3. 事件传递的价值观\n4. 分析原因：针对目标完成度和过程的记录，分析未完成目标时，过程中的哪一个环节出了问题\n5. 总结经验：对于好的行为，记录下来，下次遇到同样的情况复用即可；对于不好的行为，思考如何改进才有利于实现目标\n6. 迭代行动\n\n\n","x":-1420,"y":-200,"width":900,"height":540}
+	],
+	"edges":[
+		{"id":"457185a696d49e63","fromNode":"d0965ed6550a36d7","fromSide":"bottom","toNode":"4fede9a1a8702afa","toSide":"top"},
+		{"id":"123dd0a27098868e","fromNode":"3207546f582bd92c","fromSide":"left","toNode":"6ca2d42eceaae381","toSide":"right"},
+		{"id":"c8acceabbfc52d56","fromNode":"e324dad70b545166","fromSide":"right","toNode":"e1cb278b82e6a8bb","toSide":"left"},
+		{"id":"9e4d59a37e010fc4","fromNode":"e324dad70b545166","fromSide":"right","toNode":"6e75bcb5c5f592f3","toSide":"left"}
+	]
+}
