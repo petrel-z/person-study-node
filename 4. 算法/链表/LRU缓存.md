@@ -2,7 +2,9 @@ https://leetcode.cn/problems/lru-cache-lcci/description/
 
 实现：最近最少使用
 
-使用：双向链表
+使用：双向链表 + map数组
+
+优势：使用链表时，插入和删除操作比较方便，使用map数组来查找数据比较快捷和方便
 
 **get(key)**：当能查到key时，返回该节点的value，并将该节点移到链表头部moveToHead
 **put(key，value)**：先get(key)，如果存在，就直接moveToHead
