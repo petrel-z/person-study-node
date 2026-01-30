@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown语法速览.md",
+                "file": "13. 八股/js/4. js原型、原型链.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "markdown语法速览"
+              "title": "4. js原型、原型链"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git checkout",
+                "query": "大文件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,13 +140,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "markdown语法速览.md",
+                "file": "13. 八股/js/4. js原型、原型链.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "markdown语法速览 的大纲"
+              "title": "4. js原型、原型链 的大纲"
             }
           },
           {
@@ -190,37 +190,41 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b09d9813bc4993ab",
+  "active": "f4ee079ea1bf5ad2",
   "lastOpenFiles": [
-    "ai/未命名.md",
-    "markdown语法速览.md",
-    "提示词.md",
-    "倒计时.md",
-    "14. ai/ai生成视频/1.7噜噜吃播.md",
-    "1. 前端知识点/文章.md",
-    "1. 前端知识点/1.2 浏览器/从url输入到页面展现到底发生什么.md",
-    "13. 八股/面试/面试题大纲.md",
-    "13. 八股/面试/面试准备内容.md",
-    "13. 八股/js/this绑定.md",
-    "13. 八股/js/js为什么是单线程.md",
-    "13. 八股/js/js事件循环机制.md",
-    "13. 八股/手写题/深浅拷贝.md",
-    "13. 八股/面试/第一次面试11.30.md",
-    "13. 八股/浏览器/地址栏输入url后发生了什么.md",
-    "13. 八股/其他.md",
-    "13. 八股/浏览器",
+    "13. 八股/js/3. this绑定.md",
+    "13. 八股/js/4. js原型、原型链.md",
     "7.计划总结/2026.1/1.26-1.31.md",
-    "3. 项目/面试项目准备/1. 慢跑校园服务.md",
-    "3. 项目/面试项目准备/2. 科院一点通.md",
-    "3. 项目/面试项目准备/3. 算法学习平台.md",
-    "3. 项目/面试项目准备/4. 智芯.md",
-    "3. 项目/面试项目准备/智芯演示图.canvas",
-    "3. 项目/面试项目准备",
+    "13. 八股/浏览器/1. 地址栏输入url后发生了什么.md",
+    "13. 八股/手写题/2. 防抖节流.md",
+    "images/Pasted image 20260129162109.png",
+    "13. 八股/vue/4. vue组件通讯.md",
+    "13. 八股/vue/3. vue双向绑定原理.md",
+    "13. 八股/vue/2. vue响应式原理.md",
+    "13. 八股/vue/1. v-if 和 v-for能否同时使用在同一个元素上.md",
+    "13. 八股/react/3. 组件通信.md",
+    "13. 八股/react/2. 类组件和函数式组件.md",
+    "13. 八股/react/1. 常见的hooks.md",
+    "13. 八股/js/2.  js事件循环机制.md",
+    "13. 八股/js/1. js为什么是单线程.md",
+    "13. 八股/浏览器/3. 浏览器安全限制.md",
+    "13. 八股/浏览器/2. 浏览器缓存.md",
+    "13. 八股/手写题/1. 深浅拷贝.md",
+    "13. 八股/面试项目准备/1. 慢跑校园服务.md",
+    "13. 八股/面试项目准备/慢跑.canvas",
+    "13. 八股/面试项目准备/4. 智芯.md",
+    "13. 八股/面试项目准备/智芯演示图.canvas",
+    "images/Pasted image 20260129144645.png",
+    "images/Pasted image 20260129144633.png",
+    "3. 项目/慢跑复盘/知识点深挖.md",
+    "3. 项目/react练/开发.md",
+    "3. 项目/智芯/功能.md",
+    "7.计划总结/2026.1/简历.md",
+    "4. 算法/链表/LRU缓存.md",
     "7.计划总结/2026寒假计划.md",
     "7.计划总结/2025暑期复盘.md",
-    "7.计划总结/2026.1/简历.md",
-    "13. 八股/设计模式.md",
-    "7.计划总结/2026.1/1.12-1.18.md",
+    "13. 八股/浏览器",
+    "13. 八股/面试项目准备",
     "八股/vue/未命名",
     "13. 八股/react",
     "13. 八股/vue",
@@ -236,9 +240,6 @@
     "images/Pasted image 20251120165351.png",
     "images/Pasted image 20251120165117.png",
     "images/Pasted image 20251120164427.png",
-    "images/Pasted image 20251120164147.png",
-    "images/Pasted image 20251120163854.png",
-    "images/Pasted image 20251117204419.png",
     "7.计划总结/2025.10/未命名.canvas",
     "6. 会议/10.12复盘分享会准备/收集与整理.canvas",
     "未命名.canvas",

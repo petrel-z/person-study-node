@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"696f6b65e64446ab","type":"text","text":"前端计算大文件hash\n引入spark-MD5计算\n还可使用web worker进行计算","x":-194,"y":-173,"width":274,"height":113},
+		{"id":"500ef77dd2025fe4","type":"text","text":"直接宣告用户上传成功","x":260,"y":270,"width":250,"height":60},
+		{"id":"014749256770f1f4","type":"text","text":"初始化上传：\n传入文件hash\n接收upload_id、已经上传的分片下标数组、分片总数等","x":-700,"y":260,"width":260,"height":120},
+		{"id":"cb93549748555156","type":"text","text":"上传过程中出现网络问题，造成分片上传失败","x":-280,"y":800,"width":250,"height":60},
+		{"id":"75992b1a3229d327","type":"text","text":"执行上传请求重试机制","x":-280,"y":960,"width":250,"height":60},
+		{"id":"2277d6e8a077ec51","type":"text","text":"宣告该切片上传失败","x":-600,"y":1220,"width":250,"height":60},
+		{"id":"9c3a829047901799","type":"text","text":"继续上传","x":-73,"y":1219,"width":250,"height":60},
+		{"id":"0a2482c8f3ed68a6","type":"text","text":"上传成功","x":-1100,"y":798,"width":250,"height":60},
+		{"id":"fee47b5b95d1a4f8","type":"text","text":"通过秒传接口：\n验证该大文件是否已经上传过了","x":-214,"y":60,"width":314,"height":60},
+		{"id":"8c337c0c92aa34ec","type":"text","text":"过滤掉已经上传过的分片，并展示出上传进度，并发上传","x":-700,"y":480,"width":260,"height":80},
+		{"id":"6d0e68133231fa62","type":"text","text":"检验所有切片是否都上传成功","x":-699,"y":1560,"width":280,"height":60},
+		{"id":"92d426ff3bcb6d37","type":"text","text":"通知后端去合并","x":-1120,"y":1820,"width":250,"height":60},
+		{"id":"0f98a9a33ef2c9d5","x":-1120,"y":2020,"width":250,"height":60,"type":"text","text":"用户上传完成"},
+		{"id":"058306b1fc202fcf","type":"text","text":"宣告用户上传失败，重新上传","x":-220,"y":1830,"width":279,"height":50}
+	],
+	"edges":[
+		{"id":"f5ba6adde45f80df","fromNode":"fee47b5b95d1a4f8","fromSide":"bottom","toNode":"014749256770f1f4","toSide":"top","label":"未上传/部分上传"},
+		{"id":"0aefc5a3955b1240","fromNode":"fee47b5b95d1a4f8","fromSide":"bottom","toNode":"500ef77dd2025fe4","toSide":"top","label":"已上传"},
+		{"id":"3235b938c1d401ce","fromNode":"014749256770f1f4","fromSide":"bottom","toNode":"8c337c0c92aa34ec","toSide":"top"},
+		{"id":"ba527dadae2cab29","fromNode":"75992b1a3229d327","fromSide":"bottom","toNode":"2277d6e8a077ec51","toSide":"top","label":"超过最大请求次数"},
+		{"id":"c515eee490865bc6","fromNode":"cb93549748555156","fromSide":"bottom","toNode":"75992b1a3229d327","toSide":"top"},
+		{"id":"ea9a5e80ab4f9712","fromNode":"75992b1a3229d327","fromSide":"bottom","toNode":"9c3a829047901799","toSide":"top","label":"未超过"},
+		{"id":"c78dfa202f59e75e","fromNode":"8c337c0c92aa34ec","fromSide":"bottom","toNode":"cb93549748555156","toSide":"top","label":"网络波动/数据丢失"},
+		{"id":"00659143cf411505","fromNode":"8c337c0c92aa34ec","fromSide":"bottom","toNode":"0a2482c8f3ed68a6","toSide":"top"},
+		{"id":"5f6f136b70fa6500","fromNode":"0a2482c8f3ed68a6","fromSide":"bottom","toNode":"6d0e68133231fa62","toSide":"top"},
+		{"id":"5031d441aff77afe","fromNode":"2277d6e8a077ec51","fromSide":"bottom","toNode":"6d0e68133231fa62","toSide":"top"},
+		{"id":"68afb17864ae28d8","fromNode":"9c3a829047901799","fromSide":"bottom","toNode":"6d0e68133231fa62","toSide":"top"},
+		{"id":"37aab469cf438dbd","fromNode":"6d0e68133231fa62","fromSide":"bottom","toNode":"92d426ff3bcb6d37","toSide":"top","label":"全部成功"},
+		{"id":"74d63933793d0faa","fromNode":"6d0e68133231fa62","fromSide":"bottom","toNode":"058306b1fc202fcf","toSide":"top","label":"部分成功"},
+		{"id":"e5e5c4026496bd2e","fromNode":"696f6b65e64446ab","fromSide":"bottom","toNode":"fee47b5b95d1a4f8","toSide":"top"},
+		{"id":"517dd997cd47c6b1","fromNode":"92d426ff3bcb6d37","fromSide":"bottom","toNode":"0f98a9a33ef2c9d5","toSide":"top","label":"合并成功"},
+		{"id":"6407d93333a28a0d","fromNode":"92d426ff3bcb6d37","fromSide":"right","toNode":"058306b1fc202fcf","toSide":"left","label":"合并失败"}
+	]
+}
