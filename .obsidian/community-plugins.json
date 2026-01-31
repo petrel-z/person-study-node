@@ -6,5 +6,7 @@
   "countdown-to",
   "dataview",
   "js-engine",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "get-info-plugin",
+  "obsidian-file-info-plugin"
 ]
