@@ -1,5 +1,3 @@
-# Life Canvas OS 设计文档
-
 ## 一、项目概述
 
 ### 1.1 项目定位
@@ -23,17 +21,17 @@ Life Canvas OS 是一款基于 Electron + Python + SQLite 的桌面个人成长�
 ## 二、技术栈选择
 
 ### 2.1 前端技术栈
-| 技术 | 版本 | 用途 |
-|------|------|------|
-| Electron | 最新版 | 桌面应用框架，跨平台支持 |
-| React | 18+ | UI 框架 |
-| TypeScript | 5+ | 类型安全 |
-| Vite | 5+ | 构建工具 |
-| shadcn/ui | 最新 | UI 组件库（基于 Radix UI + Tailwind） |
-| TailwindCSS | 3+ | 原子化 CSS 引擎 |
-| Recharts | 3+ | 数据可视化（雷达图等） |
-| Lucide React | 最新 | 图标库 |
-| TanStack Query (React Query) | 最新 | 服务端状态管理与缓存 |
+| 技术                           | 版本  | 用途                             |
+| ---------------------------- | --- | ------------------------------ |
+| Electron                     | 最新版 | 桌面应用框架，跨平台支持                   |
+| React                        | 18+ | UI 框架                          |
+| TypeScript                   | 5+  | 类型安全                           |
+| Vite                         | 5+  | 构建工具                           |
+| shadcn/ui                    | 最新  | UI 组件库（基于 Radix UI + Tailwind） |
+| TailwindCSS                  | 3+  | 原子化 CSS 引擎                     |
+| Recharts                     | 3+  | 数据可视化（雷达图等）                    |
+| Lucide React                 | 最新  | 图标库                            |
+| TanStack Query (React Query) | 最新  | 服务端状态管理与缓存                     |
 
 **状态管理选择说明：**
 - 使用 React Query 统一管理服务端状态和客户端状态
@@ -48,13 +46,13 @@ Life Canvas OS 是一款基于 Electron + Python + SQLite 的桌面个人成长�
 - 设计风格极简，符合项目审美要求
 
 ### 2.2 后端技术栈
-| 技术 | 版本 | 用途 |
-|------|------|------|
-| Python | 3.11+ | 后端服务 |
-| FastAPI | 0.100+ | 高性能异步 API 框架（开发环境 HTTP，生产环境 IPC） |
-| SQLAlchemy | 2.0+ | ORM |
-| Python 标准库 sqlite3 | 内置 | SQLite 驱动（无需额外安装） |
-| Pydantic | 2+ | 数据验证 |
+| 技术                 | 版本     | 用途                               |
+| ------------------ | ------ | -------------------------------- |
+| Python             | 3.11+  | 后端服务                             |
+| FastAPI            | 0.100+ | 高性能异步 API 框架（开发环境 HTTP，生产环境 IPC） |
+| SQLAlchemy         | 2.0+   | ORM                              |
+| Python 标准库 sqlite3 | 内置     | SQLite 驱动（无需额外安装）                |
+| Pydantic           | 2+     | 数据验证                             |
 
 **数据库管理策略：**
 - 不使用 Alembic（桌面应用不需要复杂迁移）
