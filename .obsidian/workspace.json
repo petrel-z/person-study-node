@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "13. 八股准备/css/5. 重排和重绘.md",
+                "file": "3. 项目/life/Life Canvas OS 设计文档.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. 重排和重绘"
+              "title": "Life Canvas OS 设计文档"
+            }
+          },
+          {
+            "id": "42e163a898422ce3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7.计划总结/2026.1/2.9.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2.9"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "13. 八股准备/css/5. 重排和重绘.md",
+                "file": "7.计划总结/2026.1/2.9.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5. 重排和重绘 的大纲"
+              "title": "2.9 的大纲"
             }
           },
           {
@@ -172,7 +187,7 @@
             }
           },
           {
-            "id": "f2c9b0157586e6ea",
+            "id": "46162852fc4403c2",
             "type": "leaf",
             "state": {
               "type": "tlfItemView",
@@ -203,35 +218,36 @@
       "obsidian-file-info-plugin:File Info Panel": false
     }
   },
-  "active": "1ac649a4ac2fbad9",
+  "active": "42e163a898422ce3",
   "lastOpenFiles": [
-    "13. 八股准备/css/4. BFC.md",
-    "13. 八股准备/css/5. 重排和重绘.md",
-    "13. 八股准备/css/3. css优先级.md",
-    "13. 八股准备/css/2. 水平、垂直居中.md",
-    "13. 八股准备/css/1. 块级、行、行内块的区别.md",
-    "13. 八股准备/其他.md",
-    "13. 八股准备/css",
-    "13. 八股准备/其他非技术问题.md",
+    "3. 项目/life/敏捷开发步骤.md",
+    "3. 项目/life/目标.md",
+    "markdown语法速览.md",
+    "3. 项目/life/未命名",
+    "7.计划总结/2026.1/2.9.md",
     "7.计划总结/2026.1/2.2-2.8.md",
+    "7.计划总结/2026.1/简历.md",
+    "12. 个人博客/技术选型.md",
+    "6. 会议/分享会/2025.10.1如何写出好代码.md",
+    "7.计划总结/2025年终总结.md",
+    "6. 会议/分享会/2026.1.31学姐经验分享及反思总结.md",
+    "7.计划总结/2025暑期复盘.md",
+    "7.计划总结/2026.1/1.26-1.31.md",
+    "7.计划总结/2026.1/1.12-1.18.md",
+    "6. 会议/周会/12.27七期周会-会议记录.md",
+    "6. 会议/10.12复盘分享会准备/分享会的复盘.md",
+    "7.计划总结/2025.12/第14周12.1-12.7.md",
+    "7.计划总结/2026寒假计划.md",
+    "7.计划总结/2025.10/大厂实习计划.md",
+    "7.计划总结/2025.10/10月计划总结.md",
+    "7.计划总结/2025.9/9月计划总结.md",
+    "7.计划总结/2025.8/8月计划总结.md",
+    "4. 算法/排序/归并排序.md",
+    "4. 算法/排序/快速排序.md",
     "4. 算法/数组/全排列1、2.md",
-    "4. 算法/数组/合并区间.md",
-    "4. 算法/数组/合并两个有序数组.md",
-    "13. 八股准备/自我介绍.md",
-    "4. 算法/搜索/岛屿数量.md",
-    "4. 算法/栈与队列/用队列实现栈.md",
-    "13. 八股准备/js/0. 基础问题.md",
-    "13. 八股准备/js/4. js原型、原型链.md",
-    "13. 八股准备/手写题/1. 深浅拷贝.md",
-    "3. 项目/life/Life Canvas OS 设计文档.md",
-    "3. 项目/life/Life Canvas OS 产品需求文档（PRD）.md",
     "3. 项目/electron规范.md",
-    "3. 项目/web项目规范.md",
-    "3. 项目/大厂在开发一个项目前做了哪些工作.md",
-    "3. 项目/对于开发的代码.md",
-    "3. 项目/life/问题.md",
-    "3. 项目/life/UI提示词模版.md",
-    "3. 项目/life/生成UI的提示词.md",
+    "3. 项目/life/Life Canvas OS 产品需求文档（PRD）.md",
+    "13. 八股准备/css",
     "3. 项目/life",
     "未命名.canvas",
     "images/Pasted image 20260129162109.png",
@@ -246,7 +262,6 @@
     "13. 八股准备/vue",
     "13. 八股准备/js",
     "13. 八股准备",
-    "3. 项目/算法管理小工具",
     "images/Pasted image 20251203210318.png",
     "images/Pasted image 20251203210308.png",
     "images/Pasted image 20251203182840.png",
