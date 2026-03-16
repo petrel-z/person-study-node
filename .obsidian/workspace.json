@@ -4,35 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "1b20d1eff552f81a",
+        "id": "dd5262e4545d6cf9",
         "type": "tabs",
         "children": [
           {
-            "id": "1ac649a4ac2fbad9",
+            "id": "0842ee6a90381e08",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
+              "type": "terminal:terminal",
               "state": {
-                "file": "3. 项目/life/Life Canvas OS 设计文档.md",
-                "mode": "source",
-                "source": false
+                "terminal:terminal": {
+                  "cwd": "/Users/petrel/Documents/Obsidian Vault",
+                  "focus": false,
+                  "profile": {
+                    "args": [
+                      "--login"
+                    ],
+                    "executable": "/bin/zsh",
+                    "followTheme": true,
+                    "name": "",
+                    "platforms": {
+                      "darwin": true
+                    },
+                    "pythonExecutable": "python3",
+                    "restoreHistory": false,
+                    "rightClickAction": "copyPaste",
+                    "successExitCodes": [
+                      "0",
+                      "SIGINT",
+                      "SIGTERM"
+                    ],
+                    "terminalOptions": {
+                      "documentOverride": null
+                    },
+                    "type": "integrated",
+                    "useWin32Conhost": true
+                  },
+                  "serial": null
+                }
               },
-              "icon": "lucide-file",
-              "title": "Life Canvas OS 设计文档"
+              "pinned": true,
+              "icon": "terminal",
+              "title": "终端：zsh"
             }
           },
           {
-            "id": "42e163a898422ce3",
+            "id": "4c5de0b6f8383c0b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7.计划总结/2026.1/2.9.md",
+                "file": "模版/日记模版.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.9"
+              "title": "日记模版"
             }
           }
         ],
@@ -68,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "大文件",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 204.50260543823242
+    "width": 200
   },
   "right": {
     "id": "18fa9ba812820a08",
@@ -157,13 +185,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7.计划总结/2026.1/2.9.md",
+                "file": "模版/日记模版.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2.9 的大纲"
+              "title": "日记模版 的大纲"
             }
           },
           {
@@ -187,7 +215,7 @@
             }
           },
           {
-            "id": "46162852fc4403c2",
+            "id": "81aa8517a3989c33",
             "type": "leaf",
             "state": {
               "type": "tlfItemView",
@@ -197,11 +225,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 345.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,53 +244,56 @@
       "templater-obsidian:Templater": false,
       "file-cleaner-redux:Clean files": false,
       "copilot:Open Copilot Chat": false,
-      "obsidian-file-info-plugin:File Info Panel": false
+      "obsidian-file-info-plugin:File Info Panel": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "42e163a898422ce3",
+  "active": "4c5de0b6f8383c0b",
   "lastOpenFiles": [
-    "3. 项目/life/敏捷开发步骤.md",
-    "3. 项目/life/目标.md",
-    "markdown语法速览.md",
-    "3. 项目/life/未命名",
-    "7.计划总结/2026.1/2.9.md",
-    "7.计划总结/2026.1/2.2-2.8.md",
-    "7.计划总结/2026.1/简历.md",
-    "12. 个人博客/技术选型.md",
-    "6. 会议/分享会/2025.10.1如何写出好代码.md",
-    "7.计划总结/2025年终总结.md",
-    "6. 会议/分享会/2026.1.31学姐经验分享及反思总结.md",
-    "7.计划总结/2025暑期复盘.md",
-    "7.计划总结/2026.1/1.26-1.31.md",
-    "7.计划总结/2026.1/1.12-1.18.md",
-    "6. 会议/周会/12.27七期周会-会议记录.md",
-    "6. 会议/10.12复盘分享会准备/分享会的复盘.md",
-    "7.计划总结/2025.12/第14周12.1-12.7.md",
+    "模版/Untitled.md",
+    "模版/日记模版.md",
+    "13. 八股准备/vue/1. v-if 和 v-for能否同时使用在同一个元素上.md",
+    "模版",
+    "未命名思维导图.md",
+    "预测之书+1000天后的世界+彩色.pdf",
+    "2026-03-16.md",
+    "未命名 1/Untitled.md",
+    "未命名.base",
+    "未命名 1",
+    "未命名 1.base",
+    "未命名 2.base",
+    "未命名 3.base",
+    "7.计划总结/2026.3/3.7.md",
+    "13. 八股准备/vue/5. defineAsyncComponent.md",
+    "13. 八股准备/js/7. defineAsyncComponent.md",
+    "7.计划总结/2026.3/3.16.md",
+    "7.计划总结/2026.3/未命名.md",
+    "13. 八股准备/js/5. diff算法.md",
+    "13. 八股准备/js/6. DOM.md",
+    "7.计划总结/2026.3/3.15.md",
+    "3. 项目/life/复盘/3.15.md",
+    "3. 项目/life/复盘/复盘模版.md",
+    "7.计划总结/改变.md",
+    "3. 项目/life/复盘",
+    "7.计划总结/2026.1-2 月复盘分析.md",
     "7.计划总结/2026寒假计划.md",
-    "7.计划总结/2025.10/大厂实习计划.md",
-    "7.计划总结/2025.10/10月计划总结.md",
-    "7.计划总结/2025.9/9月计划总结.md",
-    "7.计划总结/2025.8/8月计划总结.md",
-    "4. 算法/排序/归并排序.md",
-    "4. 算法/排序/快速排序.md",
-    "4. 算法/数组/全排列1、2.md",
-    "3. 项目/electron规范.md",
-    "3. 项目/life/Life Canvas OS 产品需求文档（PRD）.md",
-    "13. 八股准备/css",
-    "3. 项目/life",
+    "3. 项目/life/agent开发.md",
+    "3. 项目/life/敏捷开发步骤.md",
+    "13. 八股准备/手写题/1. 深浅拷贝.md",
+    "13. 八股准备/css/什么情况下会创建bfc.md",
+    "13. 八股准备/css/5. 重排和重绘.md",
+    "13. 八股准备/css/1. 块级、行、行内块的区别.md",
+    "13. 八股准备/css/2. 水平、垂直居中.md",
+    "未命名",
+    "7.计划总结/2026.3",
+    "3. 项目/life/业务逻辑梳理.canvas",
+    "3. 项目/life/未命名.canvas",
     "未命名.canvas",
     "images/Pasted image 20260129162109.png",
     "13. 八股准备/面试项目准备/慢跑.canvas",
     "13. 八股准备/面试项目准备/智芯演示图.canvas",
     "images/Pasted image 20260129144645.png",
     "images/Pasted image 20260129144633.png",
-    "13. 八股准备/浏览器",
-    "13. 八股准备/面试项目准备",
-    "八股/vue/未命名",
-    "13. 八股准备/react",
-    "13. 八股准备/vue",
-    "13. 八股准备/js",
-    "13. 八股准备",
     "images/Pasted image 20251203210318.png",
     "images/Pasted image 20251203210308.png",
     "images/Pasted image 20251203182840.png",

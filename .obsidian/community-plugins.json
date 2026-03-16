@@ -8,5 +8,9 @@
   "js-engine",
   "obsidian-style-settings",
   "get-info-plugin",
-  "obsidian-file-info-plugin"
+  "obsidian-file-info-plugin",
+  "terminal",
+  "quickadd",
+  "obsidian-annotator",
+  "obsidian-enhancing-mindmap"
 ]
