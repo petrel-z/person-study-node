@@ -1,0 +1,279 @@
+{
+  "workspaces": {
+    "面试稿": {
+      "main": {
+        "id": "de51374d624466eb",
+        "type": "split",
+        "children": [
+          {
+            "id": "4ce5b36c97895c2c",
+            "type": "tabs",
+            "dimension": 32.26221079691517,
+            "children": [
+              {
+                "id": "47f4d6499374a4fb",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "13. 八股准备/面试稿.md",
+                    "followCursor": true,
+                    "showSearch": true,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "面试稿 的大纲"
+                }
+              }
+            ]
+          },
+          {
+            "id": "dd5262e4545d6cf9",
+            "type": "tabs",
+            "dimension": 67.73778920308483,
+            "children": [
+              {
+                "id": "b956604e2f2787c6",
+                "type": "leaf",
+                "state": {
+                  "type": "pdf",
+                  "state": {
+                    "file": "预测之书+1000天后的世界+彩色.pdf"
+                  },
+                  "icon": "lucide-file-text",
+                  "title": "预测之书+1000天后的世界+彩色"
+                }
+              },
+              {
+                "id": "1ea90b7074282ab1",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "13. 八股准备/面试稿.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "面试稿"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "624adc44085c29cf",
+        "type": "split",
+        "children": [
+          {
+            "id": "d8751c72cd45428c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b09d9813bc4993ab",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "3a060ec95c770d11",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "6e800b3026efa19e",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "right": {
+        "id": "18fa9ba812820a08",
+        "type": "split",
+        "children": [
+          {
+            "id": "8e503bbc553adfe2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "bfdc48958efe6bc4",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "13. 八股准备/面试稿.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "面试稿 的反向链接列表"
+                }
+              },
+              {
+                "id": "42bbae8df12fb67f",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "13. 八股准备/面试稿.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "面试稿 的出链列表"
+                }
+              },
+              {
+                "id": "e18939a278334b03",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              },
+              {
+                "id": "81aa8517a3989c33",
+                "type": "leaf",
+                "state": {
+                  "type": "tlfItemView",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "File Info View"
+                }
+              },
+              {
+                "id": "742e66aecadd6aca",
+                "type": "leaf",
+                "state": {
+                  "type": "copilot-chat-view",
+                  "state": {},
+                  "icon": "message-square",
+                  "title": "Copilot"
+                }
+              },
+              {
+                "id": "0842ee6a90381e08",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/Users/petrel/Documents/Obsidian Vault",
+                      "focus": false,
+                      "profile": {
+                        "args": [
+                          "--login"
+                        ],
+                        "executable": "/bin/zsh",
+                        "followTheme": true,
+                        "name": "",
+                        "platforms": {
+                          "darwin": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "rightClickAction": "copyPaste",
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "终端：zsh"
+                }
+              },
+              {
+                "id": "64a6e30e84e6310e",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 352.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:新建数据库": false,
+          "switcher:打开快速切换": false,
+          "graph:查看关系图谱": false,
+          "canvas:新建白板": false,
+          "daily-notes:打开/创建今天的日记": false,
+          "templates:插入模板": false,
+          "command-palette:打开命令面板": false,
+          "templater-obsidian:Templater": false,
+          "file-cleaner-redux:Clean files": false,
+          "copilot:Open Copilot Chat": false,
+          "obsidian-file-info-plugin:File Info Panel": false,
+          "terminal:Open terminal": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "1ea90b7074282ab1",
+      "mtime": "2026-03-17T11:08:23+08:00"
+    }
+  },
+  "active": "面试稿"
+}

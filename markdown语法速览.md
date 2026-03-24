@@ -43,6 +43,9 @@ function (){
 - [ ] 熟悉框架
 - [x] 看书
 
+# 同步
+两个库同步插件和配置
+ln -s "/Users/petrel/Documents/Obsidian Vault/.obsidian" "/Users/petrel/Documents/Job Vault/.obsidian"
 
-
-
+执行前要删除新库的.obsidian
+rm -rf "/Users/petrel/Documents/Job Vault/.obsidian"

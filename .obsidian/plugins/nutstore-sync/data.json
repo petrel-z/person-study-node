@@ -1,0 +1,48 @@
+{
+  "account": "",
+  "credential": "",
+  "remoteDir": "/Obsidian Vault/",
+  "remoteCacheDir": "/Nutstore Sync/",
+  "useGitStyle": false,
+  "conflictStrategy": "diff-match-patch",
+  "oauthResponseText": "U8lPba81k-ToOXNyArS7NEVhgjYCUhMDklJFZe3_OkndqXi4lSV-7PUQCAsRCoJB9yPgpf-Knk9v_iFnO58wPJPZfvDXXccR0sKKXqaWPV_40Qzyyg9XUfPUu1gF1Z-V5PY72drSc_u7qgpZhZuV_K2aonM-KR0rTBQgNegkoSmn2ZA8yQ",
+  "loginMode": "sso",
+  "confirmBeforeSync": true,
+  "confirmBeforeDeleteInAutoSync": true,
+  "syncMode": "loose",
+  "filterRules": {
+    "exclusionRules": [
+      {
+        "expr": "**/.git",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/.DS_Store",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": "**/.trash",
+        "options": {
+          "caseSensitive": false
+        }
+      },
+      {
+        "expr": ".obsidian",
+        "options": {
+          "caseSensitive": false
+        }
+      }
+    ],
+    "inclusionRules": []
+  },
+  "skipLargeFiles": {
+    "maxSize": "30 MB"
+  },
+  "realtimeSync": true,
+  "startupSyncDelaySeconds": 0,
+  "autoSyncIntervalSeconds": 300
+}

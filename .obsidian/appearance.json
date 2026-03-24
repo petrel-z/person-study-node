@@ -1,7 +1,9 @@
 {
-  "cssTheme": "Things",
+  "cssTheme": "Typewriter",
   "theme": "system",
-  "accentColor": "#f9bdd5",
+  "accentColor": "",
   "interfaceFontFamily": "",
-  "nativeMenus": true
+  "nativeMenus": true,
+  "enabledCssSnippets": [],
+  "translucency": false
 }

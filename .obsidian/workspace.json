@@ -4,13 +4,184 @@
     "type": "split",
     "children": [
       {
+        "id": "4ce5b36c97895c2c",
+        "type": "tabs",
+        "dimension": 20.938137321549966,
+        "children": [
+          {
+            "id": "47f4d6499374a4fb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "7.计划总结/2026.3/3.21-3.27.md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "3.21-3.27 的大纲"
+            }
+          }
+        ]
+      },
+      {
         "id": "dd5262e4545d6cf9",
+        "type": "tabs",
+        "dimension": 79.06186267845004,
+        "children": [
+          {
+            "id": "b956604e2f2787c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7.计划总结/2026.3/3.21-3.27.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.21-3.27"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "624adc44085c29cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "d8751c72cd45428c",
         "type": "tabs",
         "children": [
           {
+            "id": "b09d9813bc4993ab",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "3a060ec95c770d11",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "注释",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "6e800b3026efa19e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 237.50260543823242
+  },
+  "right": {
+    "id": "18fa9ba812820a08",
+    "type": "split",
+    "children": [
+      {
+        "id": "8e503bbc553adfe2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfdc48958efe6bc4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "13. 八股准备/面试稿.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "面试稿 的反向链接列表"
+            }
+          },
+          {
+            "id": "42bbae8df12fb67f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "13. 八股准备/面试稿.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "面试稿 的出链列表"
+            }
+          },
+          {
+            "id": "e18939a278334b03",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "81aa8517a3989c33",
+            "type": "leaf",
+            "state": {
+              "type": "tlfItemView",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "File Info View"
+            }
+          },
+          {
+            "id": "742e66aecadd6aca",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
             "id": "0842ee6a90381e08",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "terminal:terminal",
               "state": {
@@ -44,154 +215,8 @@
                   "serial": null
                 }
               },
-              "pinned": true,
               "icon": "terminal",
               "title": "终端：zsh"
-            }
-          },
-          {
-            "id": "4c5de0b6f8383c0b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "模版/日记模版.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "日记模版"
-            }
-          }
-        ],
-        "currentTab": 1
-      }
-    ],
-    "direction": "vertical"
-  },
-  "left": {
-    "id": "624adc44085c29cf",
-    "type": "split",
-    "children": [
-      {
-        "id": "d8751c72cd45428c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b09d9813bc4993ab",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": true
-              },
-              "icon": "lucide-folder-closed",
-              "title": "文件列表"
-            }
-          },
-          {
-            "id": "3a060ec95c770d11",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "搜索"
-            }
-          },
-          {
-            "id": "6e800b3026efa19e",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "书签"
-            }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 200
-  },
-  "right": {
-    "id": "18fa9ba812820a08",
-    "type": "split",
-    "children": [
-      {
-        "id": "8e503bbc553adfe2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "bfdc48958efe6bc4",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "6. 会议/分享会/2026.1.31学姐经验分享及反思总结.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
-              },
-              "icon": "links-coming-in",
-              "title": "2026.1.31学姐经验分享及反思总结 的反向链接列表"
-            }
-          },
-          {
-            "id": "42bbae8df12fb67f",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "6. 会议/分享会/2026.1.31学姐经验分享及反思总结.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "2026.1.31学姐经验分享及反思总结 的出链列表"
-            }
-          },
-          {
-            "id": "e18939a278334b03",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "47f4d6499374a4fb",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "模版/日记模版.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "日记模版 的大纲"
             }
           },
           {
@@ -203,33 +228,13 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "742e66aecadd6aca",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
-            }
-          },
-          {
-            "id": "81aa8517a3989c33",
-            "type": "leaf",
-            "state": {
-              "type": "tlfItemView",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "File Info View"
-            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 345.5,
+    "width": 352.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -245,47 +250,51 @@
       "file-cleaner-redux:Clean files": false,
       "copilot:Open Copilot Chat": false,
       "obsidian-file-info-plugin:File Info Panel": false,
-      "terminal:Open terminal": false
+      "terminal:Open terminal": false,
+      "workspaces:管理工作区布局": false,
+      "nutstore-sync:Start sync": false,
+      "nutstore-sync:Stop sync": false
     }
   },
-  "active": "4c5de0b6f8383c0b",
+  "active": "b956604e2f2787c6",
   "lastOpenFiles": [
-    "模版/Untitled.md",
-    "模版/日记模版.md",
-    "13. 八股准备/vue/1. v-if 和 v-for能否同时使用在同一个元素上.md",
-    "模版",
-    "未命名思维导图.md",
+    "4. 算法/链表/循环链表.md",
+    "模版/项目/熟悉.md",
+    "模版/项目/注释.md",
+    "7.计划总结/2026.3/3.21-3.27.md",
+    "13. 八股准备/浏览器/3. 浏览器安全限制.md",
+    "13. 八股准备/浏览器/2. 浏览器缓存.md",
+    "13. 八股准备/浏览器/1. 地址栏输入url后发生了什么.md",
+    "模版/项目",
+    "7.计划总结/2026.3/3.7.md",
+    "3. 项目/个人博客/3. 后台需求文档.md",
+    "8. 工具助手/软件篇.md",
+    "8. 工具助手/网站篇.md",
+    "7.计划总结/2026.3/3.14-3.20.md",
+    "7.计划总结/2026.3/3.17.md",
+    "13. 八股准备/手写题/7. 字符串经典题目.md",
+    "13. 八股准备/手写题/6. 数组经典题目.md",
+    "4. 算法/数组/合并两个有序数组.md",
+    "4. 算法/搜索/岛屿数量.md",
+    "4. 算法/哈希/最长回文串.md",
+    "4. 算法/字符串/比较版本号.md",
+    "4. 算法/字符串/滑动窗口总结.md",
+    "4. 算法/字符串/无重复字符的最长子串.md",
+    "4. 算法/字符串/有效的括号字符串.md",
+    "4. 算法/字符串/LCR 015. 找到字符串中所有字母异位词.md",
+    "13. 八股准备/react/3. 组件通信.md",
+    "13. 八股准备/react/2. 类组件和函数式组件.md",
+    "13. 八股准备/react/1. 什么是hooks，有哪些常见的.md",
     "预测之书+1000天后的世界+彩色.pdf",
-    "2026-03-16.md",
-    "未命名 1/Untitled.md",
+    "images/Pasted image 20250710160120.png",
+    "3. 项目/life/开发记录",
+    "smaller-toc.css",
+    "markdown语法速览.css",
+    "未命名文件夹",
+    "模版",
     "未命名.base",
     "未命名 1",
     "未命名 1.base",
-    "未命名 2.base",
-    "未命名 3.base",
-    "7.计划总结/2026.3/3.7.md",
-    "13. 八股准备/vue/5. defineAsyncComponent.md",
-    "13. 八股准备/js/7. defineAsyncComponent.md",
-    "7.计划总结/2026.3/3.16.md",
-    "7.计划总结/2026.3/未命名.md",
-    "13. 八股准备/js/5. diff算法.md",
-    "13. 八股准备/js/6. DOM.md",
-    "7.计划总结/2026.3/3.15.md",
-    "3. 项目/life/复盘/3.15.md",
-    "3. 项目/life/复盘/复盘模版.md",
-    "7.计划总结/改变.md",
-    "3. 项目/life/复盘",
-    "7.计划总结/2026.1-2 月复盘分析.md",
-    "7.计划总结/2026寒假计划.md",
-    "3. 项目/life/agent开发.md",
-    "3. 项目/life/敏捷开发步骤.md",
-    "13. 八股准备/手写题/1. 深浅拷贝.md",
-    "13. 八股准备/css/什么情况下会创建bfc.md",
-    "13. 八股准备/css/5. 重排和重绘.md",
-    "13. 八股准备/css/1. 块级、行、行内块的区别.md",
-    "13. 八股准备/css/2. 水平、垂直居中.md",
-    "未命名",
-    "7.计划总结/2026.3",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",
@@ -300,7 +309,6 @@
     "images/Pasted image 20251203182825.png",
     "images/Pasted image 20251120165351.png",
     "images/Pasted image 20251120165117.png",
-    "images/Pasted image 20251120164427.png",
     "7.计划总结/2025.10/未命名.canvas",
     "6. 会议/10.12复盘分享会准备/收集与整理.canvas",
     "3. 项目/慢跑项目/未命名.canvas",
