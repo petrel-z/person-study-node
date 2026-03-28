@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "面试稿.md",
+                "file": "项目.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "面试稿 的大纲"
+              "title": "项目 的大纲"
             }
           }
         ]
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "面试稿.md",
+                "file": "项目.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "面试稿"
+              "title": "项目"
             }
           }
         ]
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "context",
+                "query": "异步",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +97,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -270,15 +271,23 @@
   },
   "active": "f2624b6e974c5bc6",
   "lastOpenFiles": [
-    "项目.md",
+    "vue/生命周期.md",
     "面试稿.md",
-    "job value/计算机网络面试题.md",
     "React/⭐️常见面试题.md",
+    "需求文档.md",
+    "需求文档.md.tmp.96465.1774700540690",
+    "需求文档.md.tmp.96465.1774699953251",
+    "项目.md",
+    "招呼语.md",
+    "vue/性能优化.md",
+    "vue/虚拟 DOM.md",
+    "vue/异步组件.md",
+    "vue/响应式原理.md",
+    "job value/计算机网络面试题.md",
     "job value",
     "Html+Css/变换 Transform.md",
     "Html+Css/00-HTML+CSS 知识体系地图.md",
     "Html+Css/表单与输入.md",
-    "vue/响应式原理.md",
     "vue/⭐️常见面试题.md",
     "React/00-React 知识体系地图.md",
     "React/组件与 Props.md",
@@ -291,12 +300,6 @@
     "vue/Vue Router.md",
     "Vue 与 React 通用/Diff 算法原理.md",
     "Vue 与 React 通用/虚拟 DOM.md",
-    "Html+Css/浏览器兼容性.md",
-    "Html+Css/性能优化.md",
-    "Html+Css/BEM 命名规范.md",
-    "Html+Css/CSS 变量.md",
-    "Html+Css/滤镜与混合模式.md",
-    "Html+Css/CSS 动画.md",
     "Html+Css",
     "Vue 与 React 通用",
     "React/并发模式.md.tmp.53406.1774080511129",
@@ -304,8 +307,6 @@
     "vue",
     "未命名.base",
     "未命名 1.base",
-    "3. 项目/life/开发记录",
-    "预测之书+1000天后的世界+彩色.pdf",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",
