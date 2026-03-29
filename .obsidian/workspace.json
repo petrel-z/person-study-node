@@ -6,7 +6,7 @@
       {
         "id": "27f006ce9eedf725",
         "type": "tabs",
-        "dimension": 32.46268656716418,
+        "dimension": 28.554710356933878,
         "children": [
           {
             "id": "f72b45affd20967e",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "项目.md",
+                "file": "模版/项目/SDD.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "项目 的大纲"
+              "title": "SDD 的大纲"
             }
           }
         ]
@@ -28,7 +28,7 @@
       {
         "id": "1fc2725ad6d89e52",
         "type": "tabs",
-        "dimension": 67.53731343283582,
+        "dimension": 71.44528964306612,
         "children": [
           {
             "id": "f2624b6e974c5bc6",
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "项目.md",
+                "file": "模版/项目/SDD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "项目"
+              "title": "SDD"
             }
           }
         ]
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "异步",
+                "query": "context",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,12 +97,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 251.51103591918945
   },
   "right": {
     "id": "18fa9ba812820a08",
@@ -243,7 +242,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -271,35 +270,33 @@
   },
   "active": "f2624b6e974c5bc6",
   "lastOpenFiles": [
-    "vue/生命周期.md",
-    "面试稿.md",
-    "React/⭐️常见面试题.md",
-    "需求文档.md",
-    "需求文档.md.tmp.96465.1774700540690",
-    "需求文档.md.tmp.96465.1774699953251",
-    "项目.md",
-    "招呼语.md",
-    "vue/性能优化.md",
-    "vue/虚拟 DOM.md",
-    "vue/异步组件.md",
-    "vue/响应式原理.md",
-    "job value/计算机网络面试题.md",
+    "模版/项目/设计文档规范.md",
+    "模版/项目/SDD.md",
+    "模版/项目/注释.md",
+    "模版/项目/TDD.md",
+    "3. 项目/慢跑1.0/1.0定字段.md",
+    "3. 项目/慢跑0.5/慢跑会/前端会/7.10前端会.md",
+    "3. 项目/慢跑0.5/框架熟悉过程/路由.md",
+    "3. 项目/慢跑复盘/慢跑项目复盘.md",
+    "3. 项目/慢跑复盘/复盘会.md",
+    "未命名/禁止焦虑.md",
+    "未命名/出路.md",
+    "markdown语法速览.md",
+    "6. 会议/分享会/2025.10.1如何写出好代码.md",
+    "6. 会议/分享会/2026.1.31学姐经验分享及反思总结.md",
+    "6. 会议/讨论会/2025.12.27.md",
+    "6. 会议/讨论会/2025.12.21.md",
+    "6. 会议/周会/2026.3.28.md",
+    "6. 会议/周会/2026.3.6.md",
+    "6. 会议/周会/12.27会议记录.md",
+    "6. 会议/周会/11.8月度总结.md",
+    "6. 会议/周会/8.16会议记录.md",
+    "6. 会议/周会/7.19.md",
+    "6. 会议/周会/5.25.md",
+    "6. 会议/周会/8.16.md",
+    "6. 会议/周会/9.3.md",
+    "6. 会议/周会/9.13.md",
     "job value",
-    "Html+Css/变换 Transform.md",
-    "Html+Css/00-HTML+CSS 知识体系地图.md",
-    "Html+Css/表单与输入.md",
-    "vue/⭐️常见面试题.md",
-    "React/00-React 知识体系地图.md",
-    "React/组件与 Props.md",
-    "React/Refs 与 DOM.md",
-    "React/React 核心概念.md",
-    "React/状态管理.md",
-    "React/useMemo 与 useCallback.md",
-    "Html+Css/盒模型.md",
-    "Html+Css/移动端适配.md",
-    "vue/Vue Router.md",
-    "Vue 与 React 通用/Diff 算法原理.md",
-    "Vue 与 React 通用/虚拟 DOM.md",
     "Html+Css",
     "Vue 与 React 通用",
     "React/并发模式.md.tmp.53406.1774080511129",
@@ -307,6 +304,8 @@
     "vue",
     "未命名.base",
     "未命名 1.base",
+    "3. 项目/life/开发记录",
+    "预测之书+1000天后的世界+彩色.pdf",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",
