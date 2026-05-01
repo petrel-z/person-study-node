@@ -4,9 +4,31 @@
     "type": "split",
     "children": [
       {
+        "id": "e0f1feafd3afe2d3",
+        "type": "tabs",
+        "dimension": 19.14373088685015,
+        "children": [
+          {
+            "id": "15c4c02b960cc0e0",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3. 项目/python爬虫工具/技术栈/python爬虫库.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "python爬虫库 的大纲"
+            }
+          }
+        ]
+      },
+      {
         "id": "3bf7db99fc0a0b24",
         "type": "tabs",
-        "dimension": 57.43944636678201,
+        "dimension": 80.85626911314985,
         "children": [
           {
             "id": "315c93d7d35f621b",
@@ -14,52 +36,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. 会议/周会/2026/2026.4.4.md",
+                "file": "3. 项目/python爬虫工具/技术栈/python爬虫库.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026.4.4"
+              "title": "python爬虫库"
             }
-          },
-          {
-            "id": "97e70349d7c19074",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "6. 会议/周会/2026/2026.4.25会议记录.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026.4.25会议记录"
-            },
-            "group": "3d8499359099ce0e"
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "81b198ac5833ea1c",
-        "type": "tabs",
-        "dimension": 42.56055363321799,
-        "children": [
-          {
-            "id": "757e3258897408ec",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "6. 会议/周会/2026/2026.4.25会议记录.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "2026.4.25会议记录 的大纲"
-            },
-            "group": "3d8499359099ce0e"
           }
         ]
       }
@@ -118,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 240.50390243530273
+    "width": 248.5
   },
   "right": {
     "id": "18fa9ba812820a08",
@@ -177,6 +160,16 @@
             }
           },
           {
+            "id": "81aa8517a3989c33",
+            "type": "leaf",
+            "state": {
+              "type": "tlfItemView",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "File Info View"
+            }
+          },
+          {
             "id": "742e66aecadd6aca",
             "type": "leaf",
             "state": {
@@ -209,6 +202,7 @@
           {
             "id": "f6f0123a6ad3e662",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "terminal:terminal",
               "state": {
@@ -242,8 +236,9 @@
                   "serial": null
                 }
               },
+              "pinned": true,
               "icon": "terminal",
-              "title": "终端：✳ Claude Code"
+              "title": "终端：zsh"
             }
           },
           {
@@ -252,23 +247,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. 会议/周会/2026/2026.4.25会议记录.md",
+                "file": "8. 工具助手/软件篇.md",
                 "followCursor": false,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2026.4.25会议记录 的大纲"
-            }
-          },
-          {
-            "id": "43527fdc4283890c",
-            "type": "leaf",
-            "state": {
-              "type": "tlfItemView",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "File Info View"
+              "title": "软件篇 的大纲"
             }
           }
         ],
@@ -276,7 +261,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5,
+    "width": 588.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -298,44 +283,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "97e70349d7c19074",
+  "active": "315c93d7d35f621b",
   "lastOpenFiles": [
-    "6. 会议/周会/2026/2026.4.25会议记录.md",
-    "7.计划总结/2026.4/未命名.md",
-    "8. 工具助手/软件篇.md",
-    "8. 工具助手/网站篇.md",
-    "6. 会议/周会/2026/2026.4.18.md",
-    "6. 会议/周会/2026/2026.4.11.md",
-    "3. 项目/个人博客/优化任务.md",
-    "1. 前端知识点/1.4 css/flex和grid的区别是什么.md",
-    "1. 前端知识点/1.4 css/less规范.md",
-    "1. 前端知识点/1.4 css/一行展示固定个数.md",
-    "1. 前端知识点/1.1 js基础/js事件循环⭐️.md",
-    "1. 前端知识点/1.1 js基础/js防抖和节流.md",
-    "1. 前端知识点/1.1 js基础/interface和type的区别.md",
-    "1. 前端知识点/1.1 js基础/computed和watch的区别.md",
-    "1. 前端知识点/1.1 js基础/bind和this.md",
-    "1. 前端知识点/1.1 js基础/作用域与词法作用域.md",
-    "1. 前端知识点/1.1 js基础/隐式转换.md",
-    "1. 前端知识点/1.1 js基础/同步与异步⭐️.md",
-    "1. 前端知识点/1.1 js基础/词法环境、执行上下文、调用栈.md",
-    "1. 前端知识点/1.1 js基础/闭包.md",
-    "1. 前端知识点/1.1 js基础/数组.md",
-    "1. 前端知识点/1.4 css/外边距塌陷.md",
-    "1. 前端知识点/1.5 uniapp/路由传参.md",
-    "1. 前端知识点/1.5 uniapp/页面通讯的方式2——（实际应用场景）.md",
-    "1. 前端知识点/1.5 uniapp/页面通讯的方式1——（UniApp 开发微信小程序）.md",
-    "1. 前端知识点/1.5 uniapp/路由传参解码decodeURIComponent.md",
-    "未命名 1",
-    "6. 会议/周会/2025",
-    "6. 会议/周会/2026",
-    "3. 项目/个人博客/文档",
-    "3. 项目/个人博客/总结",
-    "7.计划总结/2026.4",
-    "4. 算法/排序/快速选择.md.tmp.408.1774919775654",
-    "job value",
-    "Html+Css",
-    "Vue 与 React 通用",
+    "3. 项目/python爬虫工具/技术栈/python库.md",
+    "3. 项目/python爬虫工具/技术栈/python爬虫库.md",
+    "3. 项目/python爬虫工具/技术栈/python框架.md",
+    "3. 项目/python爬虫工具/技术栈",
+    "7.计划总结/2026.5/5.1.md",
+    "7.计划总结/2026.5",
+    "3. 项目/python爬虫工具",
+    "面试复盘/4.28.md",
+    "面试复盘/面试复盘问题.md",
+    "面试复盘/4.21-硅基流动-前端开发.md",
+    "面试准备/面试稿.md",
+    "面试准备/未来目标/能力目标.md",
+    "面试准备/未来目标/复盘.md",
+    "面试准备/未来目标",
+    "面试准备/招呼语.md",
+    "面试准备/简历技术栈/简历知识点准备.md",
+    "面试准备/简历技术栈/所涉及的知识点.md",
+    "面试准备/init-claude",
+    "面试准备/提问方向",
+    "想法.md",
+    "面试准备/提问方向/面试官提问方向.md",
+    "面试准备/init-claude/init-claude.md",
+    "面试准备/提问方向/项目准备.md",
+    "面试准备/提问方向/项目提问方向.md",
+    "八股/计算机网络面试题.md",
+    "八股",
+    "面试准备/life-canvas-os/life-canvas-os.md",
+    "面试准备/life-canvas-os/PROJECT_QA.md",
+    "面试准备/简历技术栈",
+    "面试准备/life-canvas-os",
+    "面试准备",
+    "超级备忘录.md",
+    "4. 算法/二叉树/前序遍历.md",
+    "4. 算法/二叉树/判断是否为平衡二叉树.md",
+    "4. 算法/二叉树/后序遍历.md",
+    "4. 算法/哈希/最长回文串.md",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",
