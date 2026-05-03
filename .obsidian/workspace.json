@@ -6,7 +6,7 @@
       {
         "id": "e0f1feafd3afe2d3",
         "type": "tabs",
-        "dimension": 19.14373088685015,
+        "dimension": 21.162079510703364,
         "children": [
           {
             "id": "15c4c02b960cc0e0",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "7.计划总结/2026.5/5.1.md",
+                "file": "面试复盘/4.21-硅基流动-前端开发.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "5.1 的大纲"
+              "title": "4.21-硅基流动-前端开发 的大纲"
             }
           }
         ]
@@ -28,7 +28,7 @@
       {
         "id": "3bf7db99fc0a0b24",
         "type": "tabs",
-        "dimension": 80.85626911314985,
+        "dimension": 78.83792048929664,
         "children": [
           {
             "id": "315c93d7d35f621b",
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7.计划总结/2026.5/5.1.md",
+                "file": "面试复盘/4.21-硅基流动-前端开发.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.1"
+              "title": "4.21-硅基流动-前端开发"
             }
           }
         ]
@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 240.50390243530273
   },
   "right": {
     "id": "18fa9ba812820a08",
@@ -285,16 +285,8 @@
   },
   "active": "315c93d7d35f621b",
   "lastOpenFiles": [
-    "6. 会议/周会/2026/2026.5.2.md",
-    "3. 项目/python爬虫工具/技术栈/python爬虫库.md",
-    "3. 项目/python爬虫工具/技术栈/python库.md",
-    "3. 项目/python爬虫工具/技术栈/python框架.md",
-    "3. 项目/python爬虫工具/技术栈",
-    "7.计划总结/2026.5/5.1.md",
-    "7.计划总结/2026.5",
-    "3. 项目/python爬虫工具",
-    "面试复盘/4.28.md",
     "面试复盘/面试复盘问题.md",
+    "面试复盘/4.28.md",
     "面试复盘/4.21-硅基流动-前端开发.md",
     "面试准备/面试稿.md",
     "面试准备/未来目标/能力目标.md",
@@ -317,10 +309,18 @@
     "面试准备/简历技术栈",
     "面试准备/life-canvas-os",
     "面试准备",
+    "面试复盘",
     "超级备忘录.md",
     "4. 算法/二叉树/前序遍历.md",
     "4. 算法/二叉树/判断是否为平衡二叉树.md",
     "4. 算法/二叉树/后序遍历.md",
+    "4. 算法/哈希/最长回文串.md",
+    "4. 算法/链表/翻转链表.md",
+    "4. 算法/链表/两数相加.md",
+    "4. 算法/链表/排序链表.md",
+    "4. 算法/链表/LRU缓存.md",
+    "未命名 1",
+    "6. 会议/周会/2025",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",
