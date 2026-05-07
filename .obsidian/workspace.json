@@ -6,7 +6,7 @@
       {
         "id": "e0f1feafd3afe2d3",
         "type": "tabs",
-        "dimension": 28.837953091684433,
+        "dimension": 28.83795309168443,
         "children": [
           {
             "id": "15c4c02b960cc0e0",
@@ -28,7 +28,7 @@
       {
         "id": "3bf7db99fc0a0b24",
         "type": "tabs",
-        "dimension": 71.16204690831557,
+        "dimension": 71.16204690831556,
         "children": [
           {
             "id": "315c93d7d35f621b",
@@ -285,12 +285,15 @@
   },
   "active": "315c93d7d35f621b",
   "lastOpenFiles": [
-    "6. 会议/周会/2026/2026.5.2.md",
+    "3. 项目/个人博客/总结/问题.md",
+    "3. 项目/python爬虫工具/问题/爬虫失败.md",
     "3. 项目/python爬虫工具/技术栈/llm驱动的爬虫.md",
+    "3. 项目/python爬虫工具/问题",
+    "7.计划总结/2026.5/5.1-5.5.md",
+    "6. 会议/周会/2026/2026.5.2.md",
     "3. 项目/python爬虫工具/技术栈/python框架.md",
     "3. 项目/python爬虫工具/技术栈/未命名",
     "3. 项目/python爬虫工具/技术栈/python库.md",
-    "7.计划总结/2026.5/5.1-5.5.md",
     "0. 计算机网络/TCP三次握手.md",
     "images/Pasted image 20260503194359.png",
     "0. 计算机网络/tcp和udp的区别.md",
@@ -319,9 +322,6 @@
     "面试准备/提问方向/项目准备.md",
     "面试准备/提问方向/项目提问方向.md",
     "八股/计算机网络面试题.md",
-    "八股",
-    "面试准备/life-canvas-os/life-canvas-os.md",
-    "面试准备/life-canvas-os/PROJECT_QA.md",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",
