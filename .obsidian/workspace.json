@@ -6,7 +6,7 @@
       {
         "id": "e0f1feafd3afe2d3",
         "type": "tabs",
-        "dimension": 17.421602787456447,
+        "dimension": 26.597051597051596,
         "children": [
           {
             "id": "15c4c02b960cc0e0",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "模版/项目/注释.md",
+                "file": "八股/计算机网络面试题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "注释 的大纲"
+              "title": "计算机网络面试题 的大纲"
             }
           }
         ]
@@ -28,7 +28,7 @@
       {
         "id": "3bf7db99fc0a0b24",
         "type": "tabs",
-        "dimension": 82.57839721254355,
+        "dimension": 73.4029484029484,
         "children": [
           {
             "id": "315c93d7d35f621b",
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "模版/项目/注释.md",
+                "file": "八股/计算机网络面试题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "注释"
+              "title": "计算机网络面试题"
             }
           }
         ]
@@ -285,9 +285,12 @@
   },
   "active": "315c93d7d35f621b",
   "lastOpenFiles": [
-    "7.计划总结/2026.5/5.11-5.16.md",
+    "面试准备/面试稿.md",
+    "面试复盘/面试复盘问题.md",
+    "面试复盘/5.14 深圳云梦 一面 electron前端开发.md",
     "6. 会议/分享会/2026.5.6王老师分享vibe coding.md",
     "6. 会议/分享会/未命名.canvas",
+    "7.计划总结/2026.5/5.11-5.16.md",
     "10. 学习经验/ai提示词/ai写代码.md",
     "10. 学习经验/ai提示词/ai.md",
     "1. 前端知识点/1.2 浏览器/http缓存.md",
@@ -309,9 +312,7 @@
     "3. 项目/life/开发记录/问题.md",
     "3. 项目/个人博客/总结/问题.md",
     "3. 项目/python爬虫工具/问题/爬虫失败.md",
-    "3. 项目/python爬虫工具/技术栈/llm驱动的爬虫.md",
     "3. 项目/python爬虫工具/问题",
-    "6. 会议/周会/2026/2026.5.2.md",
     "3. 项目/python爬虫工具/技术栈/未命名",
     "images/Pasted image 20260503194359.png",
     "7.分享会/2026.5",
