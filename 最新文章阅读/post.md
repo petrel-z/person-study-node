@@ -152,3 +152,90 @@ AI 文章推荐
 **文章概要**：Chrome for Developers 发布 Chrome DevTools for agents 1.0，让 AI coding agent 通过 MCP Server、CLI 和 agent skills 连接真实浏览器，执行调试、Lighthouse 审计、设备模拟、WebMCP 测试和内存泄漏分析。前端工程师值得看，因为这把 AI 编程从“只会写代码”推进到“能观察运行时并验证页面行为”，对前端 Agent 工作流和质量门禁都有直接参考价值。
 
 **文章链接**：[https://developer.chrome.com/blog/devtools-for-agents-v1?hl=en](https://developer.chrome.com/blog/devtools-for-agents-v1?hl=en)
+
+## 2026-05-26
+
+AI 文章推荐
+
+### 1. Introducing Mistral 3
+**文章概要**：Mistral 发布 Mistral 3 系列，包括 Apache 2.0 开源的 Mistral Large 3 和 3B、8B、14B 的 Ministral 3 小模型，重点覆盖多模态、多语言、边缘部署和企业自定义。文章值得看，因为它展示了开源权重模型继续向 MoE、大规模低精度推理和本地/边缘场景推进，对模型选型和部署成本判断很有参考价值。
+
+**文章链接**：[https://mistral.ai/news/mistral-3](https://mistral.ai/news/mistral-3)
+
+### 2. How Superset built the IDE for AI agents on Vercel
+**文章概要**：Vercel 这篇案例介绍 Superset 如何构建面向多 Agent 开发的 IDE，让开发者同时调度最多 10 个 coding agents，并通过隔离 workspace、预览部署和模型路由支撑并行开发。它值得关注，因为文章把“一个开发者 + 一组云端 Agent”的产品形态讲得很具体，适合观察 Agent 工具如何从聊天窗口演化为团队级开发环境。
+
+**文章链接**：[https://vercel.com/blog/how-superset-built-the-ide-for-ai-agents-on-vercel](https://vercel.com/blog/how-superset-built-the-ide-for-ai-agents-on-vercel)
+
+### 3. The AWS MCP Server is now generally available
+**文章概要**：AWS 宣布 AWS MCP Server 正式可用，为 coding agents 和 AI 助手提供通过 MCP 安全访问 AWS 服务的托管入口，并支持 IAM guardrails、CloudWatch 指标、CloudTrail 审计和 sandboxed `run_script`。这篇对 Vibe Coding 很实用，因为它展示了 MCP 从本地插件走向云厂商托管基础设施，也说明企业如何给 Agent 开放真实云资源而不失去权限控制。
+
+**文章链接**：[https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/](https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/)
+
+### 4. RAG vs MCP for AI agents: When to index, when to fetch live
+**文章概要**：StackOne 这篇长文系统比较 RAG 和 MCP：RAG 适合异步索引稳定知识，MCP 适合运行时获取实时数据或执行写操作，并进一步讨论权限、多租户 SaaS 和混合架构。它适合准备 AI 应用架构面试，因为文章能帮助区分 embedding、向量检索、tool calling 和实时权限校验分别解决什么问题。
+
+**文章链接**：[https://www.stackone.com/blog/rag-vs-mcp/](https://www.stackone.com/blog/rag-vs-mcp/)
+
+### 5. What's new in DevTools (Chrome 147)
+**文章概要**：Chrome DevTools 147 更新了 AI assistance 的自动上下文选择、代码补全、压缩网络响应解码和面向 DevTools MCP/CLI 的 agent skills。前端工程师值得看，因为这些变化把性能调试、网络排查和 AI 辅助修复更紧密地接到浏览器运行时，能提升 AI 辅助前端开发的可验证性。
+
+**文章链接**：[https://developer.chrome.com/blog/new-in-devtools-147?hl=en](https://developer.chrome.com/blog/new-in-devtools-147?hl=en)
+
+## 2026-05-27
+
+AI 文章推荐
+
+### 1. Cohere acquires Reliant AI to expand sovereign enterprise AI
+**文章概要**：Cohere 宣布收购生物制药 AI 公司 Reliant AI，把其科研工作台、专有生物医学数据和领域建模能力整合进 Cohere 的主权企业 AI 平台。文章值得看，因为它体现了 AI 公司从通用模型竞争转向“受监管行业 + 垂直 Agent 产品”的趋势，也能观察生物医药场景对数据主权、合规和专业工作流的要求。
+
+**文章链接**：[https://cohere.com/blog/cohere-acquires-reliant-ai-expand-sovereign-enterprise-ai](https://cohere.com/blog/cohere-acquires-reliant-ai-expand-sovereign-enterprise-ai)
+
+### 2. LangSmith LLM Gateway: runtime governance built into the agent lifecycle
+**文章概要**：LangChain 介绍 LangSmith LLM Gateway，把预算上限、PII/密钥脱敏、审计日志和策略事件接入 Agent 的运行时与 trace 体系中。它适合关注生产级 Agent 的读者，因为文章说明了治理不应只是事后监控，而要嵌入模型调用、工具调用、MCP 交互和可观测性闭环。
+
+**文章链接**：[https://www.langchain.com/blog/introducing-llm-gateway](https://www.langchain.com/blog/introducing-llm-gateway)
+
+### 3. New in Deep Agents v0.6
+**文章概要**：LangChain 发布 Deep Agents v0.6，新增 code interpreter、harness profiles、typed streaming、DeltaChannel checkpoint 和 ContextHubBackend。对 Vibe Coding 很有价值的是，它把 programmatic tool calling、子 Agent 编排、长任务状态压缩和前端流式 UI 串成一套可落地的 Agent 工程能力。
+
+**文章链接**：[https://www.langchain.com/blog/deep-agents-0-6](https://www.langchain.com/blog/deep-agents-0-6)
+
+### 4. The Agent Development Lifecycle (ADLC)
+**文章概要**：Harrison Chase 这篇文章把 Agent 开发拆成 Build、Test、Deploy、Monitor、Iterate 五个阶段，并区分 frameworks、runtimes、harnesses、skills、MCP、sandboxes 和 context hub 的职责。它很适合准备 Agent 架构或 AI 应用面试，因为文章不仅讲概念，还强调 eval、trace、feedback、dashboard 如何把线上失败转回测试集和改进循环。
+
+**文章链接**：[https://www.langchain.com/blog/the-agent-development-lifecycle](https://www.langchain.com/blog/the-agent-development-lifecycle)
+
+### 5. What's new in DevTools (Chrome 148)
+**文章概要**：Chrome DevTools 148 更新了 DevTools MCP server 和 CLI，新增 Chrome Extension 调试、WebMCP tool calling、Agentic Browsing Lighthouse 审计，并改进浏览器弹窗处理。前端工程师值得看，因为这些能力让 AI coding agent 能更接近真实浏览器运行时，检查扩展、页面暴露的工具和站点是否适配 agentic web。
+
+**文章链接**：[https://developer.chrome.com/blog/new-in-devtools-148?hl=en](https://developer.chrome.com/blog/new-in-devtools-148?hl=en)
+
+## 2026-05-28
+
+AI 文章推荐
+
+### 1. Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark
+**文章概要**：Microsoft Security 介绍了代号 MDASH 的多模型 agentic 扫描系统，用 100 多个专门 Agent 协作发现、辩论和证明 Windows 网络与认证栈中的漏洞。文章值得看，因为它展示了 AI 安全从单模型能力评测进入“Agent 系统工程”阶段，重点已经转向多模型编排、可复现证明、误报控制和企业级防御落地。
+
+**文章链接**：[https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/](https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/)
+
+### 2. How Frontier Firms are rebuilding the operating model for the age of AI
+**文章概要**：Microsoft 这篇文章基于 2026 Work Trend Index，总结人和 Agent 协作正在从 Author、Editor、Director 走向 Orchestrator，并介绍 Copilot Cowork、插件生态和 Microsoft Agent 365 的企业化方向。它值得关注，因为文章把 AI 应用从“个人提效工具”提升到组织操作系统层面，适合观察企业 Agent 产品如何和治理、连接器、业务流程重构结合。
+
+**文章链接**：[https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/](https://blogs.microsoft.com/blog/2026/05/05/how-frontier-firms-are-rebuilding-the-operating-model-for-the-age-of-ai/)
+
+### 3. How General Intelligence used agents to build an agent platform on Vercel
+**文章概要**：Vercel 这篇案例讲 General Intelligence 如何用自己的 Cofounder Agent 平台建设 Agent 公司，5 名工程师支撑大量 PR、预览分支和自动化 SRE 工作。对 Vibe Coding 很有价值的是，文章把“Agent 能不能真正端到端开发”落到基础设施细节上：CLI/API 覆盖度、预览环境、浏览器 Agent 测试、分支隔离和统一观测层。
+
+**文章链接**：[https://vercel.com/blog/how-general-intelligence-used-agents-to-build-an-agent-platform-on-vercel](https://vercel.com/blog/how-general-intelligence-used-agents-to-build-an-agent-platform-on-vercel)
+
+### 4. Defense in depth for autonomous AI agents
+**文章概要**：Microsoft Security 系统梳理 autonomous AI agents 的防御纵深，强调 Agent 不只是模型问题，还涉及应用层权限、工具范围、确定性 human-in-the-loop、Agent identity 和可审计边界。它适合作为 Agent 面试知识补充，因为文章能帮助回答“为什么 Agent 不能只靠 prompt 或 guardrail 保证安全”，并给出接近生产架构的设计模式。
+
+**文章链接**：[https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/](https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/)
+
+### 5. Next.js Across Platforms: Adapters, OpenNext, and Our Commitments
+**文章概要**：Next.js 官方解释 16.2 稳定 Adapter API 的背景，说明 Next.js 如何把构建输出变成 typed、versioned 的平台契约，并通过共享测试套件和 verified adapters 支持 Vercel、Bun、OpenNext、Cloudflare、Netlify、AWS Amplify 等生态。前端工程师值得看，因为它关系到 Next.js 应用跨平台部署、缓存语义、流式渲染和框架治理的长期稳定性。
+
+**文章链接**：[https://nextjs.org/blog/nextjs-across-platforms](https://nextjs.org/blog/nextjs-across-platforms)

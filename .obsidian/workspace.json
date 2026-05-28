@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "14. ai/ai学习规划/1. tool calling、function calling.md",
+                "file": "最新文章阅读/post.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1. tool calling、function calling 的大纲"
+              "title": "post 的大纲"
             }
           }
         ]
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14. ai/ai学习规划/1. tool calling、function calling.md",
+                "file": "最新文章阅读/post.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. tool calling、function calling"
+              "title": "post"
             }
           }
         ]
@@ -285,12 +285,11 @@
   },
   "active": "315c93d7d35f621b",
   "lastOpenFiles": [
-    "14. ai/ai学习规划/大致方向.md",
-    "14. ai/ai学习规划/1. tool calling、function calling.md",
-    "3. 项目/demo和真正项目的区别.md",
-    "14. ai/ai学习规划",
     "7.计划总结/2026.5/5.23-5.29.md",
     "最新文章阅读/post.md",
+    "面试准备/Life Canvas OS 业务闭环与技术闭环梳理.md",
+    "八股/node/未命名.md",
+    "八股/node",
     "小林coding/第一阶段-网络分层与整体地图学习计划.md",
     "未命名.md",
     "7.计划总结/2026.5/5.18-5.22.md",
@@ -315,6 +314,7 @@
     "6. 会议/周会/2026/2026.3.6.md",
     "6. 会议/周会/2026/2026.5.2.md",
     "6. 会议/讨论会/2025.12.27.md",
+    "6. 会议/讨论会/2025.12.21.md",
     "6. 会议/分享会/未命名.canvas",
     "3. 项目/python爬虫工具/问题",
     "3. 项目/python爬虫工具/技术栈/未命名",
