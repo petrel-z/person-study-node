@@ -239,3 +239,32 @@ AI 文章推荐
 **文章概要**：Next.js 官方解释 16.2 稳定 Adapter API 的背景，说明 Next.js 如何把构建输出变成 typed、versioned 的平台契约，并通过共享测试套件和 verified adapters 支持 Vercel、Bun、OpenNext、Cloudflare、Netlify、AWS Amplify 等生态。前端工程师值得看，因为它关系到 Next.js 应用跨平台部署、缓存语义、流式渲染和框架治理的长期稳定性。
 
 **文章链接**：[https://nextjs.org/blog/nextjs-across-platforms](https://nextjs.org/blog/nextjs-across-platforms)
+
+## 2026-05-29
+
+AI 文章推荐
+
+### 1. Announcing Cohere's Command A+
+**文章概要**：Cohere 在 2026 年 5 月 20 日发布 Command A+，这是 Command A 系列的新模型，支持视觉输入、推理、翻译和 agentic tasks，并采用 218B 总参数、25B 激活参数的 MoE 架构。它值得看，因为文章把模型能力、部署成本、多语言覆盖和企业私有部署放在一起说明，适合判断企业级大模型如何在“强能力”和“可落地部署”之间取舍。
+
+**文章链接**：[https://docs.cohere.com/changelog](https://docs.cohere.com/changelog)
+
+### 2. AI Now Summit 2026
+**文章概要**：Mistral AI 汇总了 AI Now Summit 2026 的主要发布，包括面向工业工程的 AI stack、与 Airbus/BMW/ASML 等企业的合作、Vibe 长周期生产力 Agent，以及新的推理数据中心计划。文章值得关注，因为它展示了 AI 公司正在从单点模型 API 走向“行业模型 + Agent 产品 + 私有基础设施”的全栈企业方案。
+
+**文章链接**：[https://mistral.ai/news/ai-now-summit-2026/](https://mistral.ai/news/ai-now-summit-2026/)
+
+### 3. How I use OpenCode with Vercel AI Gateway to build features fast
+**文章概要**：Vercel 这篇实战文介绍如何把 OpenCode、oh-my-openagent、Vercel AI Gateway 和 agent-browser 组合起来，让不同子任务自动路由到不同模型，从而降低约 70% token 成本。它对 Vibe Coding 很实用，因为文章不是泛泛谈多模型，而是把规划、搜索、调试、浏览器验证和模型路由拆成可复用工作流。
+
+**文章链接**：[https://vercel.com/kb/guide/how-i-use-opencode-with-vercel-ai-gateway-to-build-features-fast](https://vercel.com/kb/guide/how-i-use-opencode-with-vercel-ai-gateway-to-build-features-fast)
+
+### 4. Introducing Search Toolkit
+**文章概要**：Mistral 发布开源 Search Toolkit，把 ingestion、BM25/dense/hybrid retrieval、embedding generation 和 recall、precision、MRR、NDCG 等评测能力放到统一框架中。它适合准备 RAG、Embedding、向量数据库和 AI 应用架构面试，因为文章清楚说明了生产检索系统的关键问题：不只是“存向量”，还要能解析数据、组合检索策略并持续评估质量。
+
+**文章链接**：[https://mistral.ai/news/search-toolkit/](https://mistral.ai/news/search-toolkit/)
+
+### 5. How to build an agent for Liveblocks with Chat SDK and AI SDK
+**文章概要**：Vercel 这篇教程演示如何用 Liveblocks Comments、Chat SDK、AI SDK 的 `ToolLoopAgent` 和 Redis 构建能在 React 评论线程里响应 @mention 的 AI Agent。前端工程师值得看，因为它把实时协作 UI、webhook 校验、流式回复、工具调用和并发锁放到一个具体应用里，比单纯聊天 Demo 更接近真实产品集成。
+
+**文章链接**：[https://vercel.com/kb/guide/liveblocks-chat-sdk-ai-sdk](https://vercel.com/kb/guide/liveblocks-chat-sdk-ai-sdk)

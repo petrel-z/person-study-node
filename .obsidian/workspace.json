@@ -4,9 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "e0f1feafd3afe2d3",
+        "id": "559b808813494b76",
         "type": "tabs",
-        "dimension": 25.02179598953792,
+        "dimension": 23.525798525798525,
         "children": [
           {
             "id": "15c4c02b960cc0e0",
@@ -14,34 +14,34 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "最新文章阅读/post.md",
+                "file": "生命画布.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "post 的大纲"
+              "title": "生命画布 的大纲"
             }
           }
         ]
       },
       {
-        "id": "3bf7db99fc0a0b24",
+        "id": "e0f1feafd3afe2d3",
         "type": "tabs",
-        "dimension": 74.97820401046208,
+        "dimension": 76.47420147420148,
         "children": [
           {
-            "id": "315c93d7d35f621b",
+            "id": "afb8724aac5e13ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "最新文章阅读/post.md",
+                "file": "生命画布.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "post"
+              "title": "生命画布"
             }
           }
         ]
@@ -283,46 +283,46 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "315c93d7d35f621b",
+  "active": "afb8724aac5e13ea",
   "lastOpenFiles": [
-    "7.计划总结/2026.5/5.23-5.29.md",
-    "最新文章阅读/post.md",
-    "面试准备/Life Canvas OS 业务闭环与技术闭环梳理.md",
+    "八股/Html+Css/变换 Transform.md",
+    "八股/Html+Css/00-HTML+CSS 知识体系地图.md",
     "八股/node/未命名.md",
+    "八股/Electron/工具函数.md",
+    "生命画布.md",
+    "八股/python",
+    "八股/fastapi",
+    "八股/Electron/框架.md",
+    "面试复盘/4.21 硅基流动 一面 前端开发.md",
+    "八股/Electron",
+    "面试准备/招呼语.md",
+    "面试准备/Life Canvas OS 业务闭环与技术闭环梳理.md",
+    "面试准备/面试稿.md",
+    "想法.md",
+    "八股/计算机网络面试题.md",
+    "面试准备/life-canvas-os/life-canvas-os.md",
+    "面试准备/init-claude/init-claude.md",
+    "面试准备/未来目标/复盘.md",
+    "面试准备/简历技术栈/所涉及的知识点.md",
+    "面试准备/简历技术栈/简历知识点准备.md",
+    "面试准备/提问方向/项目准备.md",
+    "面试准备/提问方向/项目提问方向.md",
+    "面试准备/提问方向/面试官提问方向.md",
+    "面试准备/未来目标/能力目标.md",
+    "面试准备/life-canvas-os/PROJECT_QA.md",
     "八股/node",
     "小林coding/第一阶段-网络分层与整体地图学习计划.md",
+    "最新文章阅读/post.md",
+    "7.计划总结/2026.5/5.23-5.29.md",
     "未命名.md",
-    "7.计划总结/2026.5/5.18-5.22.md",
-    "更改git提交的邮箱.md",
-    "小林coding/计算机网络学习路线.md",
-    "小林coding/计算机网络学习进度与质量评分.md",
-    "未命名/禁止焦虑.md",
-    "未命名/出路.md",
     "小林coding",
     "最新文章阅读",
-    "7.计划总结/2026.5/5.11-5.16.md",
-    "周报/5.16-5.22_周报.md",
-    "周报/5.18-5.22_周报.md",
     "周报",
-    "6. 会议/周会/2026/2026.5.23周会.md",
-    "3. 项目/个人博客/总结/项目的部署流程.md",
-    "3. 项目/个人博客/总结/问题.md",
-    "6. 会议/周会/2026/2026.4.18.md",
-    "6. 会议/周会/2026/2026.4.11.md",
-    "6. 会议/周会/2026/2026.4.4.md",
-    "6. 会议/周会/2026/2026.3.28.md",
-    "6. 会议/周会/2026/2026.3.6.md",
-    "6. 会议/周会/2026/2026.5.2.md",
-    "6. 会议/讨论会/2025.12.27.md",
-    "6. 会议/讨论会/2025.12.21.md",
     "6. 会议/分享会/未命名.canvas",
     "3. 项目/python爬虫工具/问题",
     "3. 项目/python爬虫工具/技术栈/未命名",
     "images/Pasted image 20260503194359.png",
     "7.分享会/2026.5",
-    "7.分享会",
-    "3. 项目/python爬虫工具/技术栈",
-    "7.计划总结/2026.5",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",
