@@ -6,7 +6,7 @@
       {
         "id": "559b808813494b76",
         "type": "tabs",
-        "dimension": 23.525798525798525,
+        "dimension": 23.52579852579852,
         "children": [
           {
             "id": "15c4c02b960cc0e0",
@@ -14,13 +14,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "生命画布.md",
+                "file": "3. 项目/桌面宠物/学习思路.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "生命画布 的大纲"
+              "title": "学习思路 的大纲"
             }
           }
         ]
@@ -36,12 +36,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "生命画布.md",
+                "file": "3. 项目/桌面宠物/学习思路.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "生命画布"
+              "title": "学习思路"
             }
           }
         ]
@@ -101,7 +101,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 296.5
   },
   "right": {
     "id": "18fa9ba812820a08",
@@ -285,44 +285,44 @@
   },
   "active": "afb8724aac5e13ea",
   "lastOpenFiles": [
+    "7.计划总结/2026.6/5.30-6.5.md",
+    "7.计划总结/2026.5/5.23-5.29.md",
+    "3. 项目/桌面宠物/学习思路.md",
+    "3. 项目/桌面宠物",
+    "项目稿/生命画布/详情/agent工程化问题.md",
+    "项目稿/生命画布/详情/未命名.md",
+    "项目稿/生命画布/详情/skills.md",
+    "项目稿/生命画布/详情/skills工程化问题.md",
+    "项目稿/生命画布/详情/function call工程化问题解决.md",
+    "八股/架构设计/教程.md",
+    "面试复盘/4.21 硅基流动 一面 前端开发.md",
+    "八股/架构设计",
+    "项目稿/生命画布/稿.md",
+    "项目稿/生命画布/详情/架构设计优化详情.md",
+    "项目稿/生命画布/详情",
+    "项目稿/生命画布",
+    "项目稿",
+    "面试稿.md",
+    "面试复盘/面试复盘问题.md",
+    "八股/React/useMemo 与 useCallback.md",
+    "八股/next/未命名.md",
+    "八股/next",
+    "八股/node/spawn exec.md",
     "八股/Html+Css/变换 Transform.md",
     "八股/Html+Css/00-HTML+CSS 知识体系地图.md",
     "八股/node/未命名.md",
     "八股/Electron/工具函数.md",
-    "生命画布.md",
     "八股/python",
     "八股/fastapi",
     "八股/Electron/框架.md",
-    "面试复盘/4.21 硅基流动 一面 前端开发.md",
     "八股/Electron",
     "面试准备/招呼语.md",
     "面试准备/Life Canvas OS 业务闭环与技术闭环梳理.md",
-    "面试准备/面试稿.md",
     "想法.md",
     "八股/计算机网络面试题.md",
-    "面试准备/life-canvas-os/life-canvas-os.md",
-    "面试准备/init-claude/init-claude.md",
-    "面试准备/未来目标/复盘.md",
-    "面试准备/简历技术栈/所涉及的知识点.md",
-    "面试准备/简历技术栈/简历知识点准备.md",
-    "面试准备/提问方向/项目准备.md",
-    "面试准备/提问方向/项目提问方向.md",
-    "面试准备/提问方向/面试官提问方向.md",
-    "面试准备/未来目标/能力目标.md",
-    "面试准备/life-canvas-os/PROJECT_QA.md",
     "八股/node",
-    "小林coding/第一阶段-网络分层与整体地图学习计划.md",
-    "最新文章阅读/post.md",
-    "7.计划总结/2026.5/5.23-5.29.md",
-    "未命名.md",
-    "小林coding",
-    "最新文章阅读",
-    "周报",
     "6. 会议/分享会/未命名.canvas",
-    "3. 项目/python爬虫工具/问题",
-    "3. 项目/python爬虫工具/技术栈/未命名",
     "images/Pasted image 20260503194359.png",
-    "7.分享会/2026.5",
     "3. 项目/life/业务逻辑梳理.canvas",
     "3. 项目/life/未命名.canvas",
     "未命名.canvas",

@@ -268,3 +268,177 @@ AI 文章推荐
 **文章概要**：Vercel 这篇教程演示如何用 Liveblocks Comments、Chat SDK、AI SDK 的 `ToolLoopAgent` 和 Redis 构建能在 React 评论线程里响应 @mention 的 AI Agent。前端工程师值得看，因为它把实时协作 UI、webhook 校验、流式回复、工具调用和并发锁放到一个具体应用里，比单纯聊天 Demo 更接近真实产品集成。
 
 **文章链接**：[https://vercel.com/kb/guide/liveblocks-chat-sdk-ai-sdk](https://vercel.com/kb/guide/liveblocks-chat-sdk-ai-sdk)
+
+## 2026-05-30
+
+AI 文章推荐
+
+### 1. Model Release Notes
+**文章概要**：OpenAI 的模型发布说明在 2026 年 5 月 28 日更新了 GPT-5.5 Instant，重点是改善 ChatGPT 和 API 中的回答风格、可读性和实用任务节奏，同时说明 canvas 功能将从 GPT-5.5 Instant / Thinking 中移除。它值得看，因为这类 release notes 能直接反映主流模型产品的能力取舍、旧模型退役节奏和用户体验调整方向，比单纯看评测更接近真实使用影响。
+
+**文章链接**：[https://help.openai.com/en/articles/9624314-model-release-notes](https://help.openai.com/en/articles/9624314-model-release-notes)
+
+### 2. Microsoft Agent 365, now generally available, expands capabilities and integrations
+**文章概要**：Microsoft 宣布 Agent 365 面向商业客户正式可用，把企业内不同来源的 AI agents 纳入统一的观测、治理和安全控制平面。文章值得关注，因为它把“agent sprawl”“shadow AI”、本地 agent、SaaS agent、MCP server、身份与权限映射等问题讲得很具体，适合理解 Agent 产品从个人工具走向企业治理基础设施的趋势。
+
+**文章链接**：[https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/](https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/)
+
+### 3. Introducing deepsec: The security harness for finding vulnerabilities in your codebase
+**文章概要**：Vercel 开源 deepsec，这是一个由 Claude 和 Codex 驱动的 coding agent 安全扫描 harness，可以在本地或 Vercel Sandboxes 上并行分析大型代码库。它对 Vibe Coding 很实用，因为文章展示了 agent 如何从静态候选扫描、漏洞调查、二次验证、责任人归因到导出修复任务形成闭环，也提醒团队把 AI 编程和安全验证放进同一工作流。
+
+**文章链接**：[https://vercel.com/blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your-code-base](https://vercel.com/blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your-code-base)
+
+### 4. Break the context window barrier with Amazon Bedrock AgentCore
+**文章概要**：AWS 这篇技术文介绍如何用 Amazon Bedrock AgentCore Code Interpreter 和 Strands Agents SDK 实现 Recursive Language Models，让模型通过代码环境、工作记忆和子 LLM 调用处理超过上下文窗口的大型文档。它适合准备 RAG、Agent 和 AI 应用架构面试，因为文章清楚区分了“把全部内容塞进上下文”和“把上下文当作可查询环境”的架构差异，并给出可落地的实现路径。
+
+**文章链接**：[https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/](https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/)
+
+### 5. Built-in AI APIs: Do and don't
+**文章概要**：Chrome for Developers 这篇指南总结了在网页中使用 Chrome 内置 AI APIs 的实践建议，覆盖模型预热、Prompt API 初始化、session clone、释放资源和流式渲染等细节。前端工程师值得看，因为它不是泛泛介绍“浏览器内置 AI”，而是从延迟、内存、上下文污染和用户体验角度给出生产可用的前端 AI 设计约束。
+
+**文章链接**：[https://developer.chrome.com/docs/ai/built-in-ai-dos-donts?hl=en](https://developer.chrome.com/docs/ai/built-in-ai-dos-donts?hl=en)
+
+## 2026-05-31
+
+AI 文章推荐
+
+### 1. Introducing Claude Opus 4.8
+**文章概要**：Anthropic 发布 Claude Opus 4.8，重点提升 coding、agentic skills、reasoning 和实际知识工作能力，并同步推出 Claude Code dynamic workflows 与更便宜的 fast mode。文章值得看，因为它不仅是新模型发布，还展示了前沿模型正在围绕长任务、复杂代码库探索和可控推理成本做产品化优化。
+
+**文章链接**：[https://www.anthropic.com/news/claude-opus-4-8](https://www.anthropic.com/news/claude-opus-4-8)
+
+### 2. ChatGPT — Release Notes
+**文章概要**：OpenAI 在 2026 年 5 月 29 日的 ChatGPT 发布说明中更新了 Codex：支持 Windows Computer Use、远程控制、Codex Profiles，并继续说明 GPT-5.5 Instant 与旧模型退役节奏。它值得关注，因为这些更新把 AI 编程工具从代码生成推进到跨设备、可观察、可远程接管本地开发环境的工作流。
+
+**文章链接**：[https://help.openai.com/en/articles/6825453-chatgpt-release-notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)
+
+### 3. Evaluating Deep Agents using LangSmith on AWS
+**文章概要**：AWS 与 LangChain 联合写的这篇文章把 Deep Agents 评测拆成 trajectory、final response 和其他状态三类，并演示如何用 pytest、LangSmith 和 Amazon Bedrock 构建离线评测与线上监控。对 Vibe Coding 很实用，因为它把 Agent 开发从“感觉能跑”推进到可回归、可追踪、可上线治理的工程流程。
+
+**文章链接**：[https://aws.amazon.com/blogs/machine-learning/evaluating-deep-agents-using-langsmith-on-aws/](https://aws.amazon.com/blogs/machine-learning/evaluating-deep-agents-using-langsmith-on-aws/)
+
+### 4. Build a test suite that grows with your agent with dataset management in Amazon Bedrock AgentCore
+**文章概要**：AWS 这篇技术文讲解如何用 AgentCore dataset management 管理 Agent 测试集，把已知生产事故固化为 predefined scenarios，并用 user simulation scenarios 探索未知失败模式。它适合准备 Agent、tool calling 和 AI 应用架构面试，因为文章清楚说明了多轮 Agent 评测、版本化基准、部署门禁和线上优化之间的关系。
+
+**文章链接**：[https://aws.amazon.com/blogs/machine-learning/build-a-test-suite-that-grows-with-your-agent-with-dataset-management-in-amazon-bedrock-agentcore/](https://aws.amazon.com/blogs/machine-learning/build-a-test-suite-that-grows-with-your-agent-with-dataset-management-in-amazon-bedrock-agentcore/)
+
+### 5. New in Chrome at Google I/O 2026
+**文章概要**：Chrome for Developers 汇总了 Google I/O 2026 中 Chrome 面向前端和 AI 的更新入口，包括 WebMCP、Modern Web Guidance、Chrome DevTools for agents、HTML-in-Canvas 和 Prompt API。前端工程师值得看，因为这些方向共同说明浏览器正在把 AI Agent、页面工具暴露、调试验证和内置模型能力变成 Web 平台级能力。
+
+**文章链接**：[https://developer.chrome.com/blog/new-in-chrome-io26](https://developer.chrome.com/blog/new-in-chrome-io26)
+
+## 2026-06-01
+
+AI 文章推荐
+
+### 1. How we contain Claude across products
+**文章概要**：Anthropic 这篇工程文复盘了他们如何为 claude.ai、Claude Code 和 Claude Cowork 设计 Agent containment，包括 sandbox、虚拟机、网络出口控制和人类审批疲劳等问题。它值得看，因为文章把“更强 Agent 怎么安全上线”讲成了具体工程取舍，而不是抽象安全口号，适合理解 AI 产品能力扩张背后的风险边界。
+
+**文章链接**：[https://www.anthropic.com/engineering/how-we-contain-claude](https://www.anthropic.com/engineering/how-we-contain-claude)
+
+### 2. ChatGPT Enterprise & Edu - Release Notes
+**文章概要**：OpenAI 的企业与教育版发布说明记录了 Workspace Agents 在 ChatGPT Business、Enterprise 和 Edu 中正式可用，并新增模型、发布权限、应用访问、Slack 线程回复和管理控制能力。它值得关注，因为这说明团队级 Agent 正在从个人自动化走向共享、可治理、可审计的企业工作流。
+
+**文章链接**：[https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes](https://help.openai.com/en/articles/10128477-chatgpt-enterprise-edu-release-notes)
+
+### 3. Run Docker containers inside Vercel Sandbox
+**文章概要**：Vercel Sandbox 现在支持在沙箱内安装和运行 Docker，Agent 可以构建容器、安装系统包、启动 Redis 或 Postgres 等测试依赖，而不触碰宿主机。对 Vibe Coding 很实用，因为它让 coding agent 的验证环境更接近真实工程项目，也降低了本地环境污染和权限风险。
+
+**文章链接**：[https://vercel.com/changelog/run-docker-containers-inside-vercel-sandbox](https://vercel.com/changelog/run-docker-containers-inside-vercel-sandbox)
+
+### 4. What is Model Context Protocol? A practical guide to MCP
+**文章概要**：Cohere 这篇指南系统解释 MCP 是什么，以及它和 API、RAG、function calling、agents 的关系与边界。它适合准备 AI 面试和应用架构讨论，因为文章能帮助把“模型如何发现并使用外部系统能力”说清楚，避免把 MCP 误解成向量检索或 Agent 框架本身。
+
+**文章链接**：[https://cohere.com/blog/guide-to-mcp](https://cohere.com/blog/guide-to-mcp)
+
+### 5. Chat SDK adds web adapter support
+**文章概要**：Vercel 这篇更新介绍 Chat SDK 的 web adapter，让开发者可以把 Chat SDK bot 接到浏览器聊天 UI，并通过 `@ai-sdk/react` 风格的 hook 流式展示回复。前端开发者值得看，因为它把 in-product assistant、客服 Agent 和网页聊天体验的接入路径压缩到更轻的 React/Next.js 工作流中。
+
+**文章链接**：[https://vercel.com/changelog/chat-sdk-adds-web-adapter-support](https://vercel.com/changelog/chat-sdk-adds-web-adapter-support)
+
+## 2026-06-02
+
+AI 文章推荐
+
+### 1. Qwen 3.7 Plus now available on AI Gateway
+**文章概要**：Vercel 宣布 Alibaba 的 Qwen 3.7 Plus 已接入 AI Gateway，这个模型把视觉和语言统一到一个面向 Agent 的基础模型中，覆盖 GUI/CLI 操作、编码、生产力工作流和视觉 Agent 推理。文章值得看，因为它不只是模型上架说明，还展示了多模态 Agent 模型如何通过统一 API、成本追踪、重试和 failover 进入前端/全栈应用开发流程。
+
+**文章链接**：[https://vercel.com/changelog/qwen-3-7-plus-now-available-on-ai-gateway](https://vercel.com/changelog/qwen-3-7-plus-now-available-on-ai-gateway)
+
+### 2. Announcing Claude Managed Agents on Cloudflare
+**文章概要**：Cloudflare 介绍了与 Anthropic Claude Managed Agents 的集成：Agent loop 可以运行在 Claude Platform 上，同时用 Cloudflare Sandboxes 执行代码、保护私有服务连接并观测自定义工具调用。它值得关注，因为这类组合把 Agent 产品从本地工具推进到可扩展、可隔离、可审计的生产基础设施，适合观察 Agent 平台化的真实落地方式。
+
+**文章链接**：[https://blog.cloudflare.com/claude-managed-agents/](https://blog.cloudflare.com/claude-managed-agents/)
+
+### 3. Modern Web Guidance
+**文章概要**：Chrome 团队发布 Modern Web Guidance，这是一组给 AI coding agents 使用的前端开发 skills 和 CLI，帮助 Agent 优先采用现代、可访问、高性能且安全的 Web API，而不是训练数据中常见的过时代码模式。对 Vibe Coding 很实用的是，它可以通过 `npx modern-web-guidance@latest install`、Vercel Agent Skills、Claude Code、Copilot CLI 等方式接入，并能与 Chrome DevTools for agents 组合形成“运行时观察 + 代码修正”的工作流。
+
+**文章链接**：[https://developer.chrome.com/docs/modern-web-guidance](https://developer.chrome.com/docs/modern-web-guidance)
+
+### 4. Agent orchestration on AWS
+**文章概要**：AWS Marketplace 的这篇模块讲解如何为多 Agent 系统设计 orchestration control plane，覆盖 AWS Step Functions、Temporal、EventBridge、Bedrock AgentCore 生命周期管理、人类审批门禁、持久状态和故障恢复。它很适合准备 Agent 架构面试，因为文章把 MCP tool schema 版本管理、golden dataset 回归测试、agent alias 和灰度发布这些生产问题讲得比较具体。
+
+**文章链接**：[https://aws.amazon.com/marketplace/build-learn/ai-agent-learning-series/agent-orchestration](https://aws.amazon.com/marketplace/build-learn/ai-agent-learning-series/agent-orchestration)
+
+### 5. Chrome 149 beta
+**文章概要**：Chrome 149 beta 汇总了前端平台更新，包括 CSS/UI 行为修正、Performance API、Web APIs 和开发者体验相关变更。前端工程师值得看，因为这些 beta 更新会提前影响组件样式、浏览器兼容性和性能调试判断，也适合作为 AI 辅助前端开发时补充最新 Web 平台上下文的参考。
+
+**文章链接**：[https://developer.chrome.com/blog/chrome-149-beta?hl=en](https://developer.chrome.com/blog/chrome-149-beta?hl=en)
+
+## 2026-06-03
+
+AI 文章推荐
+
+### 1. Introducing Command A+: Making sovereign agentic capabilities available to all
+**文章概要**：Cohere 发布开源企业级模型 Command A+，主打复杂推理、多模态、多语言和 agentic tasks，并采用 MoE 架构以降低生产部署成本。文章值得看，因为它把“强模型能力”和“主权 AI、私有部署、受监管行业可控性”放在同一个产品叙事里，适合判断企业模型选型的新重点。
+
+**文章链接**：[https://cohere.com/blog/command-a-plus](https://cohere.com/blog/command-a-plus)
+
+### 2. How Conductor moved parallel coding agents from the laptop to the cloud with Vercel Sandbox
+**文章概要**：Vercel 这篇案例介绍 Conductor 如何把多路并行 coding agents 从本地电脑迁移到云端 sandbox，每个 Agent 在隔离分支和执行环境中工作，支持开发者同时调度、审查和合并多个任务。它值得关注，因为文章展示了 AI 编程工具正在从“单 Agent 本地协作”走向“云端并行 Agent 队列”的产品形态。
+
+**文章链接**：[https://vercel.com/blog/how-conductor-moved-parallel-coding-agents-from-the-laptop-to-the-cloud-with-vercel-sandbox](https://vercel.com/blog/how-conductor-moved-parallel-coding-agents-from-the-laptop-to-the-cloud-with-vercel-sandbox)
+
+### 3. Announcing Agent Toolkit for AWS — help AI coding agents build effectively on AWS
+**文章概要**：AWS 发布 Agent Toolkit for AWS，把 agent skills、托管 MCP Server 和插件打包成面向 coding agents 的生产工具集，覆盖基础设施、数据分析、serverless、容器和 Bedrock AgentCore 等场景。对 Vibe Coding 很实用，因为它说明云厂商正在把“让 Agent 少用过时知识、少乱调用云资源”做成可安装、可治理、可审计的标准工具链。
+
+**文章链接**：[https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/](https://aws.amazon.com/about-aws/whats-new/2026/05/agent-toolkit/)
+
+### 4. From Token Streams to Agent Streams
+**文章概要**：LangChain 这篇文章解释为什么现代 Agent UI 不能只消费 token stream，而需要结构化的 agent streams 来表达消息、工具调用、子 Agent 活动、状态变化、审批和媒体事件。它适合准备 Agent 架构或 AI 应用面试，因为文章把流式输出、事件投影、前端订阅模型和长任务可观测性这些容易被忽略的工程细节讲得很清楚。
+
+**文章链接**：[https://www.langchain.com/blog/token-streams-to-agent-streams](https://www.langchain.com/blog/token-streams-to-agent-streams)
+
+### 5. The Prompt API
+**文章概要**：Chrome for Developers 的 Prompt API 文档说明了如何在浏览器中调用本地 Gemini Nano，并列出可用平台、硬件要求、会话创建、参数限制和隐私边界。前端工程师值得看，因为内置 AI API 会改变部分网页 AI 功能的架构选择：有些摘要、改写、辅助输入类能力可以在端侧完成，而不必把所有文本发到服务端模型。
+
+**文章链接**：[https://developer.chrome.com/docs/ai/prompt-api?hl=en](https://developer.chrome.com/docs/ai/prompt-api?hl=en)
+
+## 2026-06-04
+
+AI 文章推荐
+
+### 1. Introducing physics AI at Mistral: the foundation for engineering acceleration
+**文章概要**：Mistral 这篇文章介绍 physics AI：用数据驱动模型从几何、边界条件或传感数据中快速预测物理场，把传统 CFD/FEM 仿真中“每个设计等数小时到数周”的循环压缩到秒级推理。它值得看，因为这是 AI 最新技术趋势里很重要的垂直方向，展示了大模型公司如何把语言、多模态、Agent 工作流和专业物理模型组合成工业工程平台。
+
+**文章链接**：[https://mistral.ai/news/introducing-physics-ai-at-mistral/](https://mistral.ai/news/introducing-physics-ai-at-mistral/)
+
+### 2. Codex for every role, tool, and workflow
+**文章概要**：OpenAI 介绍 Codex 面向更多岗位的新能力，包括 role-specific plugins、annotations，以及可在 workspace 中分享的 Sites 预览。文章值得关注，因为它说明 Codex 正从工程师编码工具扩展为团队级知识工作平台，尤其体现了 Agent 如何通过插件、skills、上下文和协作界面进入分析、运营、设计、研究等工作流。
+
+**文章链接**：[https://openai.com/index/codex-for-every-role-tool-workflow/](https://openai.com/index/codex-for-every-role-tool-workflow/)
+
+### 3. How Auth Proxy secures LangSmith agent sandboxes
+**文章概要**：LangChain 这篇工程文解释 LangSmith Sandboxes 的 Auth Proxy 如何把凭证注入、出站网络策略和动态授权放在 sandbox 外部，避免 Agent 直接持有长期 API key。它对 Vibe Coding 很实用，因为 coding agent 一旦能运行代码、安装包和调用 API，就必须用基础设施约束网络和密钥边界，而不是只靠 prompt 或人工审查。
+
+**文章链接**：[https://www.langchain.com/blog/how-auth-proxy-secures-network-access-for-langsmith-agent-sandboxes](https://www.langchain.com/blog/how-auth-proxy-secures-network-access-for-langsmith-agent-sandboxes)
+
+### 4. Text Analysis for Hybrid Search: Tokenization, Stopwords & Accent Folding
+**文章概要**：Weaviate 这篇文章系统讲解 hybrid search 中经常被忽略的 BM25/tokenization 部分，覆盖分词器、停用词、accent folding、多语言检索和 `/v1/tokenize` 验证端点。它适合准备 RAG、Embedding、向量数据库和搜索架构面试，因为文章能帮助理解为什么“只调 embedding”不一定能救回检索质量，关键词侧的 analyzer 同样决定召回和排序效果。
+
+**文章链接**：[https://weaviate.io/blog/tokenization-text-analysis-weaviate](https://weaviate.io/blog/tokenization-text-analysis-weaviate)
+
+### 5. Chat SDK adds Lark and Feishu support
+**文章概要**：Vercel Chat SDK 新增 Lark 和飞书官方 adapter，支持 bot 发帖、编辑、删除消息、流式回复、交互卡片和表情反应，并通过 WebSocket transport 运行而无需暴露 HTTP webhook。前端和全栈开发者值得看，因为它把 AI chat bot、企业协作工具和 Node/React 应用工作流连接起来，适合构建面向团队内部的 Agent 或客服助手。
+
+**文章链接**：[https://vercel.com/changelog/chat-sdk-adds-lark-feishu-support](https://vercel.com/changelog/chat-sdk-adds-lark-feishu-support)
