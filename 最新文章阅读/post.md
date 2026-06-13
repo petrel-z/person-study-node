@@ -442,3 +442,148 @@ AI 文章推荐
 **文章概要**：Vercel Chat SDK 新增 Lark 和飞书官方 adapter，支持 bot 发帖、编辑、删除消息、流式回复、交互卡片和表情反应，并通过 WebSocket transport 运行而无需暴露 HTTP webhook。前端和全栈开发者值得看，因为它把 AI chat bot、企业协作工具和 Node/React 应用工作流连接起来，适合构建面向团队内部的 Agent 或客服助手。
 
 **文章链接**：[https://vercel.com/changelog/chat-sdk-adds-lark-feishu-support](https://vercel.com/changelog/chat-sdk-adds-lark-feishu-support)
+
+## 2026-06-05
+
+AI 文章推荐
+
+### 1. Microsoft Build 2026: Be yourself at work
+**文章概要**：Microsoft 这篇 Build 2026 官方总结覆盖 Work IQ APIs、Microsoft Scout、Agent 365、Copilot Studio、AI Foundry 和 MAI-Thinking-1 等发布，核心是把企业 AI 从单个助手推进到可编排、可治理的 Agent 平台。它值得看，因为文章同时包含新模型、Agent 产品、组织知识层和安全治理，能快速把握 Microsoft 在 2026 年中期的 AI 战略重点。
+
+**文章链接**：[https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/](https://blogs.microsoft.com/blog/2026/06/02/microsoft-build-2026-be-yourself-at-work/)
+
+### 2. Introducing Microsoft Scout: Your always-on personal agent
+**文章概要**：Microsoft 发布 Scout，把它定义为一种 always-on 的 Autopilot Agent：拥有自己的身份、能在后台理解工作优先级并按组织权限持续推进任务。文章值得关注，因为它展示了 Agent 产品从“被动问答”走向“持续执行”的形态，同时强调企业身份、权限、策略和可控自治的重要性。
+
+**文章链接**：[https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/](https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/)
+
+### 3. Introducing Rubrics: Build Agents that Evaluate and Correct Their Work
+**文章概要**：LangChain 介绍 Deep Agents 的 `RubricMiddleware`，让开发者用明确验收标准定义“任务完成”，再由独立 grader sub-agent 检查结果并把逐项反馈注入回 Agent 继续修正。它对 Vibe Coding 很实用，因为这类机制类似 Codex 或 Claude Code 中的目标检查，把测试、代码规范、报告完整性等质量门槛变成 Agent 循环的一部分。
+
+**文章链接**：[https://www.langchain.com/blog/introducing-rubrics-for-deepagents](https://www.langchain.com/blog/introducing-rubrics-for-deepagents)
+
+### 4. How to Build a Custom Agent Harness
+**文章概要**：LangChain 这篇文章把 Agent 拆成“model + harness”，并解释 harness 如何通过工具、上下文、middleware、human-in-the-loop、成本控制和策略逻辑适配不同任务。它适合准备 Agent 或 AI 应用架构面试，因为文章能帮助把 Agent loop、工具调用、上下文注入、运行时控制和生产约束这些概念串成清晰框架。
+
+**文章链接**：[https://www.langchain.com/blog/how-to-build-a-custom-agent-harness](https://www.langchain.com/blog/how-to-build-a-custom-agent-harness)
+
+### 5. What's new in DevTools (Chrome 149)
+**文章概要**：Chrome DevTools 149 带来 AI assistance 升级、稳定版 Chrome DevTools for agents MCP server/CLI、实验性 WebMCP 调试工具，以及 CSS 代码补全扩展。前端工程师值得看，因为这些能力让 AI coding agent 可以更直接地读取运行时日志、调用页面暴露工具、调试 WebMCP，并把浏览器验证纳入前端开发工作流。
+
+**文章链接**：[https://developer.chrome.com/blog/new-in-devtools-149](https://developer.chrome.com/blog/new-in-devtools-149)
+
+## 2026-06-06
+
+AI 文章推荐
+
+### 1. Nemotron 3 Ultra now available on AI Gateway
+**文章概要**：Vercel 宣布 NVIDIA Nemotron 3 Ultra 接入 AI Gateway，这是一个面向长周期 Agent 工作流的开源 MoE reasoning model，支持 1M token 上下文，覆盖规划、工具调用、子 Agent 委派和错误恢复等场景。它值得看，因为文章把“新模型能力”直接放进可调用的生产网关和 AI SDK 使用方式里，有助于判断长上下文、agentic reasoning 和模型路由如何落地到真实应用。
+
+**文章链接**：[https://vercel.com/changelog/nemotron-3-ultra-now-available-on-ai-gateway](https://vercel.com/changelog/nemotron-3-ultra-now-available-on-ai-gateway)
+
+### 2. Dreaming: Better memory for a more helpful ChatGPT
+**文章概要**：OpenAI 介绍 ChatGPT 新一代 memory synthesis 系统 Dreaming，重点解决长期记忆的陈旧、错误和规模化问题，并让用户能查看和校正模型总结出的记忆状态。文章值得看，因为长期记忆正在成为个人 AI 助手和 Agent 产品的基础能力，文中还展示了 OpenAI 如何用 eval 衡量“能否携带上下文、遵守偏好、随时间更新”。
+
+**文章链接**：[https://openai.com/index/chatgpt-memory-dreaming/](https://openai.com/index/chatgpt-memory-dreaming/)
+
+### 3. The skills.sh API is now available
+**文章概要**：Vercel 发布 skills.sh API，开发者可以用项目的 Vercel OIDC token 查询 60 多万个开源 Agent skills，获取详情、安全审计等信息，而不需要长期密钥。它对 Vibe Coding 很实用，因为 skills 正在从“本地手工安装的提示包”变成可检索、可授权、可审计的生态基础设施，适合 Codex、Claude Code、Cursor 等工具动态发现能力。
+
+**文章链接**：[https://vercel.com/changelog/the-skills-sh-api-is-now-available](https://vercel.com/changelog/the-skills-sh-api-is-now-available)
+
+### 4. Tool Forge: A Validation-Carrying Toolchain for Governed Agentic Execution
+**文章概要**：这篇 arXiv 论文提出 Tool Forge，把自然语言能力意图转换成带测试、文档、依赖策略、凭证绑定、运行时验证证据和路由元数据的工具包，并通过 Router 减少 Agent 上下文里暴露的工具 schema。它适合准备 Agent、Tool Calling、MCP 和 AI 应用架构面试，因为文章把工具治理、沙箱验证、token-efficient routing 和生产级工具生命周期放在一个系统框架里讨论。
+
+**文章链接**：[https://arxiv.org/abs/2605.28000](https://arxiv.org/abs/2605.28000)
+
+### 5. Trace any Vercel request from the CLI
+**文章概要**：Vercel CLI 新增 `vercel curl --trace` 和 `vercel traces get`，可以从终端对任意部署请求生成并获取 OpenTelemetry Session Trace。前端和全栈开发者值得看，因为当 AI coding agent 或团队排查线上问题时，可从 CLI 直接拿到请求链路追踪，能把前端接口调试、性能分析和 Agent 自动化验证接到更可靠的观测数据上。
+
+**文章链接**：[https://vercel.com/changelog/trace-any-vercel-request-from-the-cli](https://vercel.com/changelog/trace-any-vercel-request-from-the-cli)
+
+## 2026-06-07
+
+AI 文章推荐
+
+### 1. NVIDIA Jetson Brings Agentic AI to the Physical World
+**文章概要**：NVIDIA 介绍 JetPack 7.2 和 NemoClaw 对 Jetson 的支持，把 agentic AI 从服务器和桌面开发环境推进到机器人、工业检测、自动化产线等边缘设备。文章值得看，因为它展示了“物理世界 Agent”的工程趋势：实时内核、MIG、边缘推理、视觉推理 Agent 和可部署 skills 正在组合成生产级 robotics/edge AI 栈。
+
+**文章链接**：[https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/](https://blogs.nvidia.com/blog/jetson-agentic-ai-physical-world/)
+
+### 2. AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore
+**文章概要**：AWS 这篇文章把 AgentOps 拆成治理与安全、构建与运维、评估、可观测性四个支柱，并给出基于 Bedrock AgentCore 的企业级参考架构。它值得关注，因为生产级 Agent 的难点已经从“能不能调用工具”转向权限继承、工具治理、MCP/A2A、CI/CD、评测门禁和成本追踪。
+
+**文章链接**：[https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/](https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/)
+
+### 3. Zed Preview 1.6.0 Release
+**文章概要**：Zed 1.6.0 preview 带来一组 Agent 相关更新，包括 shareable agent skill links、全局 skill 目录符号链接、Rules 到 Skills 迁移、远程 workspace 项目 skills 支持、Fast mode，以及更细粒度的 agent sandbox 权限提示。它对 Vibe Coding 很实用，因为这些更新说明 AI 编程工具正在把 skills、沙箱权限、线程管理、提交信息和终端输出控制做成日常工程工作流的一部分。
+
+**文章链接**：[https://zed.dev/releases/preview/1.6.0](https://zed.dev/releases/preview/1.6.0)
+
+### 4. Organizing Agents’ memory at scale: Namespace design patterns in AgentCore Memory
+**文章概要**：AWS 这篇技术文系统讲解 Agent 长期记忆的 namespace 设计，包括 actor/session/memory strategy 的分层路径、语义检索和层级检索的区别，以及如何用 IAM condition keys 控制访问范围。它适合准备 Agent、RAG、Embedding 和 AI 应用架构面试，因为文章把“记忆不是只存向量”讲得很具体，重点落在检索粒度、隔离边界、权限控制和跨会话上下文管理。
+
+**文章链接**：[https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/](https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/)
+
+### 5. Build and deploy Shopify storefronts on Vercel
+**文章概要**：Vercel 新增 Shopify 集成，开发者可以直接从 Vercel 创建测试店铺，自动配置 Shopify 凭证，并通过 v0、Marketplace 或 CLI 构建和部署生产级 storefront。前端工程师值得看，因为它把 headless commerce、React/Next.js 前端、v0 生成式开发和一键部署工作流压缩到更短路径，适合观察 AI 辅助前端开发如何进入真实电商场景。
+
+**文章链接**：[https://vercel.com/changelog/build-and-deploy-shopify-storefronts-on-vercel](https://vercel.com/changelog/build-and-deploy-shopify-storefronts-on-vercel)
+
+## 2026-06-09
+
+AI 文章推荐
+
+### 1. OpenAI frontier models and Codex are now available on AWS
+**文章概要**：OpenAI 宣布 OpenAI frontier models 和 Codex 已在 AWS 上正式可用，企业可以通过 Amazon Bedrock 使用 OpenAI 能力，并沿用 AWS 的安全、治理、采购、计费和部署流程。文章值得看，因为它不是单纯模型发布，而是说明前沿模型和软件工程 Agent 正在进入企业已有云基础设施，影响生产环境的模型选型、合规接入和 AI 工程落地路径。
+
+**文章链接**：[https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/](https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws/)
+
+### 2. Try the new console experience in Amazon Bedrock, optimized for Anthropic- and OpenAI-compatible APIs
+**文章概要**：AWS 发布新的 Amazon Bedrock 控制台体验，围绕 `bedrock-mantle` 端点优化，支持 GPT、Claude 和开源模型，并提供模型对比、项目化评测、用量洞察和自动填充的 SDK/API 文档。它值得关注，因为这类工具把模型评估、上线前实验、成本监控和 AI coding agent 接入放进同一个工作流，适合观察企业级 AI 平台如何降低从评测到生产的摩擦。
+
+**文章链接**：[https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/](https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/)
+
+### 3. Get started with OpenAI GPT-5.5, GPT-5.4 models, and Codex on Amazon Bedrock
+**文章概要**：AWS 这篇实操文演示如何通过 OpenAI Responses API 在 Bedrock 上调用 GPT-5.5/GPT-5.4，并配置 Codex App、Codex CLI 或 IDE 插件把推理路由到 Amazon Bedrock。它对 Vibe Coding 很实用，因为文章覆盖环境变量、`~/.codex/config.toml`、区域选择、认证方式、延迟和容量注意事项，适合作为团队把 Codex 接入 AWS 治理体系的参考。
+
+**文章链接**：[https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/](https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/)
+
+### 4. AI Search for Agents: Announcing Automated Embedding in MongoDB Atlas
+**文章概要**：MongoDB 介绍 Atlas 上的 Automated Embedding Public Preview，用 Voyage AI embedding models 直接在数据库侧生成并同步向量，减少额外 embedding pipeline、回填任务和索引陈旧问题。它适合准备 RAG、Embedding、向量数据库和 Agent 架构面试，因为文章把“数据更新后向量检索如何保持新鲜”这个生产痛点讲得很具体，也说明检索基础设施正在从外挂组件变成数据库内建能力。
+
+**文章链接**：[https://www.mongodb.com/company/blog/product-release-announcements/ai-search-for-agents-announcing-automated-embedding-atlas](https://www.mongodb.com/company/blog/product-release-announcements/ai-search-for-agents-announcing-automated-embedding-atlas)
+
+### 5. WebMCP
+**文章概要**：Chrome for Developers 的 WebMCP 文档介绍这个面向浏览器 Agent 的拟议 Web 标准：网页可以通过 JavaScript 和 HTML 表单注解暴露结构化工具，让 Agent 更可靠地理解搜索、结账、填表、诊断等页面能力。前端工程师值得看，因为 WebMCP 把“AI 如何操作网页”从脆弱的 DOM 点击模拟推进到显式工具声明，并且已可通过 Chrome flag 本地开发、计划在 Chrome 149 进入 origin trial。
+
+**文章链接**：[https://developer.chrome.com/docs/ai/webmcp?hl=en](https://developer.chrome.com/docs/ai/webmcp?hl=en)
+
+## 2026-06-11
+
+AI 文章推荐
+
+### 1. Claude Fable 5 and Claude Mythos 5
+**文章概要**：Anthropic 发布 Claude Fable 5 和 Claude Mythos 5，重点强调长周期自主任务、软件工程、知识工作、视觉和科研能力，并用更严格的安全分类器限制高风险网络安全、生物和化学请求。文章值得看，因为它展示了前沿模型发布正在同时处理“能力大幅提升”和“可信访问/安全降级”两条线，对理解下一代 Agent 模型产品化很有参考价值。
+
+**文章链接**：[https://www.anthropic.com/news/claude-fable-5-mythos-5](https://www.anthropic.com/news/claude-fable-5-mythos-5)
+
+### 2. How an astrophysicist uses Codex to help simulate black holes
+**文章概要**：OpenAI 这篇案例介绍天体物理学家 Chi-kwan Chan 如何用 Codex 推导、实现和测试黑洞等离子体模拟的新数值算法。它值得看，因为文章没有把 Codex 当成“自动给答案”的工具，而是强调可检查、可测试、可复现的科研工作流，适合观察 coding agent 如何进入高严谨度科研场景。
+
+**文章链接**：[https://openai.com/index/using-codex-to-simulate-black-holes/](https://openai.com/index/using-codex-to-simulate-black-holes/)
+
+### 3. Drives for Vercel Sandbox in Private Beta
+**文章概要**：Vercel Sandbox 新增私有 beta 的 Drives，允许创建生命周期独立于 sandbox 的持久存储，并在启动隔离执行环境时挂载到指定路径。它对 Vibe Coding 很实用，因为 coding agent 经常需要保留仓库、依赖、构建产物和中间状态，这类持久 workspace 能减少重复初始化并支撑更长周期的 agent 任务。
+
+**文章链接**：[https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta](https://vercel.com/changelog/drives-for-vercel-sandbox-in-private-beta)
+
+### 4. Concurrency without Model Changes: Future-based Asynchronous Function Calling for LLMs
+**文章概要**：这篇 arXiv 论文提出 AsyncFC，在不改模型、不改现有函数实现的前提下，把 LLM 解码和函数执行解耦，让工具调用可以与模型生成并发执行。它适合准备 Function Calling / Tool Calling / Agent 架构面试，因为论文把同步工具调用的延迟瓶颈、依赖关系、symbolic futures 和并行执行讲得很清楚。
+
+**文章链接**：[https://arxiv.org/abs/2605.15077](https://arxiv.org/abs/2605.15077)
+
+### 5. Protecting against token theft
+**文章概要**：Vercel 这篇文章分析 AI endpoint 被盗刷并转售推理能力的攻击模型，说明为什么只靠登录态、IP 限流或传统 Web 防护不足，并给出在每次 AI 请求前做 BotID 深度校验的实现方式。前端和全栈开发者值得看，因为 AI 应用的成本风险和安全边界已经落到具体 route handler、AI SDK 调用路径和请求级防护设计上。
+
+**文章链接**：[https://vercel.com/blog/protecting-against-token-theft](https://vercel.com/blog/protecting-against-token-theft)
